@@ -78,7 +78,7 @@ Referencias: *Switching distortion*: pag 185,186, Douglas Self, *Audio power amp
 
 ---
 
-## 5: Cambio de protección de corriente de la etapa de salida
+## 5: Protección de corriente de la etapa de salida
 
 Al hacer repetidas simulaciones del circuito se dedujo que la protección existente que limita la corriente de  la etapa de salida introduce mucha THD. Para ilustrar esto se vuelcan algunos resultados de simulaciones para comparar:
 
