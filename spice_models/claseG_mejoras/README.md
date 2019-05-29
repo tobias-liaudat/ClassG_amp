@@ -16,7 +16,7 @@ Referencia: Pag 84, Douglas Self, *Audio power amplifi er design handbook. – 5
 
 Una propuesta para mejorar la linealidad del amplificador en vistas de obtener una baja Distorsión Armónica Total (o THD por sus siglas en inglés) es utilizar pares Sziklai (o CFP, *Complementary Feedback Pair*) como transistores de entrada del par diferencial de la etapa de entrada. De esta manera estamos agregando realimentación local en la etapa de entrada, una buena técnica de diseño para poder aumentar la linealidad. Esta modificación ayuda a reducir la distorsión de las armónicas impares y sobretodo de la tercera armónica como se deja en evidencia en el libro de referencia de Douglas Self, de ahora en mas [DS].
 
-El valor del resistor Rc que se encuentra en el par tiene una relación de compromiso. Si dicho valor es aumentado se aumenta la linealidad del circuito (referencia: Tabla 4.3, pag. 89, [DS]) pero a su vez se agrega más ruido debido al alto valor del resistor.
+El valor del resistor Rc que se encuentra en el par tiene una relación de compromiso. Si dicho valor es aumentado se aumenta la linealidad del circuito (referencia: Tabla 4.3, pag. 89, [DS]) pero a su vez se agrega más ruido debido al alto valor del resistor. El autor recomienda un valor de 2.2k que parece ser un buen compromiso.
 
 
 <p align="center">
@@ -24,6 +24,11 @@ El valor del resistor Rc que se encuentra en el par tiene una relación de compr
 </p>
 
 Referencia: Pag 88, Douglas Self, *Audio power amplifi er design handbook. – 5th ed*. ([DS])
+
+
+---
+
+## 3: Degeneración del emisor del par diferencial 
 
 
 
