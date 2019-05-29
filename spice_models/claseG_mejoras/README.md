@@ -8,7 +8,7 @@ Se modificó la fuente espejo de corriente del par diferencial. Esta fuente espe
   <img src="../imagenes/wilson_current_mirror.png?raw=true" width="300" title="hover text">
 </p>
 
-Referencia: Pag 84, Douglas Self, *Audio power amplifi er design handbook. – 5th ed*. ([DS])
+Referencia: Pag 84, Douglas Self, *Audio power amplifier design handbook. – 5th ed*. ([DS])
 
 ---
 
@@ -23,7 +23,7 @@ El valor del resistor Rc que se encuentra en el par tiene una relación de compr
   <img src="../imagenes/CFP_input_stage.png?raw=true" width="200" title="hover text">
 </p>
 
-Referencia: Pag 88, Douglas Self, *Audio power amplifi er design handbook. – 5th ed*. ([DS])
+Referencia: Pag 88, Douglas Self, *Audio power amplifier design handbook. – 5th ed*. ([DS])
 
 
 ---
@@ -54,8 +54,20 @@ donde *w2* es la frecuencia del segundo polo más bajo del sistema. Al agregar e
 Referencias: 
 - Slew Rate: Section 9.6, Gray Paul, Mayer Robert, Lewis Stephen y Hurst Paul (Ed. 5) (2009) *Analysis and Design for Integrated Circuit*. United States of America, New York: Wiley. ([GM])
 
-- Mejora de linealidad: pag 85,..,87, Douglas Self, *Audio power amplifi er design handbook. – 5th ed*. ([DS]) 
+- Mejora de linealidad: pag 85,..,87, Douglas Self, *Audio power amplifier design handbook. – 5th ed*. ([DS]) 
+
+
+---
+
+## 4: Capacitor de SpeedUp para el driver del par Darlington de salida
+
+Para mejorar la distorsión del amplificador a altas frecuencias, una posible mejora es el agregado de un capacitor de *SpeedUp* como bien se indica en la referencia [DS]. EL capacitor se conecta entre el resistor que une los transistores *drivers* de las etapas Darlington de salida como se puede ver en la siguiente figura al capacitor *C5*:
+
+<p align="center">
+  <img src="../imagenes/speedup_cap.png?raw=true" width="300" title="hover text">
+</p>
 
 
 
 
+Referencias: pag 185,186, Douglas Self, *Audio power amplifier design handbook. – 5th ed*. ([DS]) 
