@@ -19,6 +19,11 @@ Una propuesta para mejorar la linealidad del amplificador en vistas de obtener u
 El valor del resistor Rc que se encuentra en el par tiene una relación de compromiso. Si dicho valor es aumentado se aumenta la linealidad del circuito (referencia: Tabla 4.3, pag. 89, [DS]) pero a su vez se agrega más ruido debido al alto valor del resistor.
 
 
+<p align="center">
+  <img src="../imagenes/CFP_input_stage.png?raw=true" width="300" title="hover text">
+</p>
+
+Referencia: Pag 88, Douglas Self, *Audio power amplifi er design handbook. – 5th ed*. ([DS])
 
 
 
