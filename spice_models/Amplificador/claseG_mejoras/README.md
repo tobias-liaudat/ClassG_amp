@@ -109,7 +109,12 @@ Sin protección de corriente:
 
 THD = 0.003969%
 
-En las simulaciones se utilizaron las primeras 40 armónicas para el cálculo de la THD. El cálculo fue realizado integramente con el programa LTSpice.
+En las simulaciones se utilizaron las primeras 40 armónicas para el cálculo de la THD y tomando suficientes puntos en la simulación. El cálculo fue realizado integramente con el programa LTSpice. La protección de corriente de la que se está discutiendo es la siguiente:
+
+<p align="center">
+  <img src="../imagenes/proteccion_corriente.png?raw=true" width="400" title="hover text">
+</p>
+
 
 Como conlcusión se puede extraer que la protección utilizada no es viable si se desea realizar un diseño de muy baja distorsión. Por lo tanto se deberá diseñar otro tipo de protección que mantenga la THD baja.
 
