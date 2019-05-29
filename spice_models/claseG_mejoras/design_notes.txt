@@ -1,0 +1,59 @@
+
+Speedup Capacitor
+
+@10kHz Vin=1.15V VCC=50V PR1=0.5k
+
+C = 47u		--> 	THD = 0.138%
+C = 22u		--> 	THD = 0.1370%
+C = 1u		--> 	THD = 0.0842%
+
+
+@20kHz Vin=1.15V VCC=50V PR1=0.5k
+
+C = 10u		--> 	THD = 3.1607%
+C = 1u		--> 	THD = 1.6540%
+C = 100n	--> 	THD = 0.4228%
+C = 10n		--> 	THD = 0.4282%
+Sin C 		-->		THD = 0.4463%
+
+
+@20kHz Vin=1.15V VCC=50V PR1=0.7k
+
+C = 100n	--> 	THD = 0.4868%
+
+
+@20kHz Vin=1.15V VCC=50V PR1=0.3k
+
+C = 100n	--> 	THD = 0.3551%
+
+
+@20kHz Vin=1.15V VCC=50V PR1=0.35k
+
+C = 100n	--> 	THD = 0.3670%
+
+
+@20kHz Vin=1.15V VCC=50V PR1=0.4k
+
+C = 100n	--> 	THD = 0.38428%
+
+***
+@2kHz Vin=1.15V VCC=50V PR1=0.3k
+
+C = 100n	--> 	THD = 0.0143%
+C = Sin C	--> 	THD = 0.0142%
+
+***
+@2kHz Vin=0.5V VCC=50V PR1=0.3k y sin protección de corriente!
+
+C = 100n 	--> 	THD = 0.000067%
+
+***
+@2kHz Vin=1.15V VCC=50V PR1=0.3k y sin protección de corriente!
+
+C = 100n 	--> 	THD = 0.000383%
+
+
+***
+@2kHz Vin=2.0V VCC=50V PR1=0.3k y sin protección de corriente!
+
+C = 100n 	--> 	THD = 0.003969%

@@ -1,0 +1,40 @@
+*** Zener Diodes ***
+* The parameters Ibv, Ibvl, Nbv, and Nbvl, were characterized by matching the
+* manufacturer's Zener impedance at three current levels.  The parameter Tbv1
+* is calculated directly.  The remaining parameters were characterize using
+* the Parts option.
+*$
+.model D1N4728	D(Is=11.11f Rs=6.808 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=315p M=.4346
++		Vj=.75 Fc=.5 Isr=2.595n Nr=2 Bv=3.3 Ibv=5.8452 Nbv=3.6742
++		Ibvl=.27224 Nbvl=11.715 Tbv1=-636.36u)
+*		Motorola	pid=1N4728	case=DO-41
+*		89-9-19 gjg
+*		Vz = 3.3 @ 76mA, Zz = 310 @ 1mA, Zz = 68 @ 5mA, Zz = 19 @ 20mA
+*$
+
+.model D1N4736	D(Is=1.327f Rs=1.306 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=125p M=.3144
++		Vj=.75 Fc=.5 Isr=2.575n Nr=2 Bv=6.8 Ibv=15 Nbv=.31009
++		Ibvl=149.2u Nbvl=.31028 Tbv1=485.29u)
+*		Motorola	pid=1N4736 	case=DO-41
+*		89-9-19 gjg
+*		Vz = 6.8 @ 37mA, Zz = 9.1 @ 1mA, Zz = 3.5 @ 5mA, Zz = 2 @ 20mA
+*$
+
+.model D1N4742	D(Is=1.773f Rs=2.06 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=100p M=.3894
++		Vj=.75 Fc=.5 Isr=1.799n Nr=2 Bv=12 Ibv=89.447m Nbv=1.1527
++		Ibvl=248.34n Nbvl=.8248 Tbv1=700u)
+*		Motorola	pid=1N4742	case=DO-41
+*		89-9-19 gjg
+*		Vz = 12 @ 21mA, Zz = 32 @ 1mA, Zz = 7.5 @ 5mA, Zz = 4 @ 20mA
+*$
+
+.model D1N4750	D(Is=62.63f Rs=11.28 Ikf=0 N=1 Xti=3 Eg=1.11 Cjo=40p M=.2906
++		Vj=.75 Fc=.5 Isr=1.864n Nr=2 Bv=27 Ibv=.13378 Nbv=1.5283
++		Ibvl=3.4328m Nbvl=2.3046 Tbv1=888.89u)
+*		Motorola	pid=1N4750	case=DO-41
+*		89-9-19 gjg
+*		Vz = 27 @ 9.5mA, Zz = 52 @ 1mA, Zz = 21 @ 5mA, Zz = 12 @ 20mA
+*$
+*$
+* end of library
+
