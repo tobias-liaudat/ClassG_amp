@@ -33,19 +33,19 @@ Referencia: Pag 88, Douglas Self, *Audio power amplifi er design handbook. – 5
 Esta es una técnica bastante conocida de realimentación local para estabilizar parámetros del circuito. Vale la pena agregar que no solo ayuda en la estabilización de la ganancia de la etapa de entrada sino que mejora el Slew Rate del circuito entero. La posición de los resistores se puede observar en la siguiente figura:
 
 <p align="center">
-  <img src="../imagenes/Re_degeneracion.png?raw=true" width="200" title="hover text">
+  <img src="../imagenes/Re_degeneracion.png?raw=true" width="300" title="hover text">
 </p>
 
 El análisis del mejoramiento del slew rate no es trivial y puede verse detalladamente en la referencia [GM]. El slew rate depende principalmente de la carga del capacitor de Miller utilizado en la segunda etapa de alta ganancia de tensión, a la salida de la primera etapa como se ve en la siguiente figura:
 
 <p align="center">
-  <img src="../imagenes/slew_rate_calc_circuit.png?raw=true" width="200" title="hover text">
+  <img src="../imagenes/slew_rate_calc_circuit.png?raw=true" width="400" title="hover text">
 </p>
 
 La expresión del slew rate proporcionado por [GM], considerando que siempre mantenemos al circuito compensado modificando el capacitor de Miller, es el siguiente:
 
 <p align="center">
-  <img src="../imagenes/slew_rate.png?raw=true" width="200" title="hover text">
+  <img src="../imagenes/slew_rate.png?raw=true" width="300" title="hover text">
 </p>
 
 donde *w2* es la frecuencia del segundo polo más bajo del sistema. Al agregar el resistor *Re* que degenera los emisores del par diferencial se logra agregar el término de la derecha que podemos modificar y por lo tanto aumentar el slew rate.
