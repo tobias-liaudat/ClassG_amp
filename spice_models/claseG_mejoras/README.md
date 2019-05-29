@@ -30,7 +30,7 @@ Referencia: Pag 88, Douglas Self, *Audio power amplifi er design handbook. – 5
 
 ## 3: Degeneración del emisor del par diferencial 
 
-
+Esta es una técnica bastante conocida de realimentación local para estabilizar parámetros del circuito. Vale la pena agregar que no solo ayuda en la estabilización de la ganancia de la etapa de entrada sino que mejora el Slew Rate del circuito entero. 
 
 
 
