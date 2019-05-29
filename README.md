@@ -1,4 +1,4 @@
-# Diseño de un Amplificador de Audio de Potencia Clase G
+# Diseño: Amplificador de Audio de Potencia Clase G
 
 Luego se incluiran las especificaciones de diseño a cumplir.
 
