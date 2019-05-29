@@ -20,7 +20,7 @@ El valor del resistor Rc que se encuentra en el par tiene una relación de compr
 
 
 <p align="center">
-  <img src="../imagenes/CFP_input_stage.png?raw=true" width="300" title="hover text">
+  <img src="../imagenes/CFP_input_stage.png?raw=true" width="200" title="hover text">
 </p>
 
 Referencia: Pag 88, Douglas Self, *Audio power amplifi er design handbook. – 5th ed*. ([DS])
