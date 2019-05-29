@@ -67,7 +67,50 @@ Para mejorar la distorsión del amplificador a altas frecuencias, una posible me
   <img src="../imagenes/speedup_cap.png?raw=true" width="300" title="hover text">
 </p>
 
+En la figura 6.52 de la pag. 186 de [DS] se encuentra una simulación que justifica la mejora de THD gracias al capacitor de *SpeedUp*. La mejora se da sobretodo en la altas frecuencias de operación del amplificador. El capacitor proporciona un camino de menor impedancia que ayuda a despolarizar la juntura base-emisor del transistor *driver* de la etapa Darlington de salida. De esta manera logra que la etapa pueda cortar más rápido cuando pasa de un semiciclo de señal negativo a uno positivo y *vice-versa*.
+
+En el archivo de texto *design_notes.txt* se encuentran los resultados de varias simulaciones del circuito al ir variando la frecuencia, la amplitud de entrada y el valor del capacitor de *SpeedUp*. El valor con mejor desempeño resultó ser de *100nF*.
+
+
+Referencias: *Switching distortion*: pag 185,186, Douglas Self, *Audio power amplifier design handbook. – 5th ed*. ([DS]) 
 
 
 
-Referencias: pag 185,186, Douglas Self, *Audio power amplifier design handbook. – 5th ed*. ([DS]) 
+---
+
+## 5: Cambio de protección de corriente de la etapa de salida
+
+Al hacer repetidas simulaciones del circuito se dedujo que la protección existente que limita la corriente de  la etapa de salida introduce mucha THD. Para ilustrar esto se vuelcan algunos resultados de simulaciones para comparar:
+
+Con protección de corriente:
+
+@ f=2kHz | Vin=1.15V | Vout = 26V | P= 42.25W | VCC=50V | PR1=0.3k | C_SpeedUp = 100n	
+
+- THD = 0.0143%
+
+
+Sin protección de corriente:
+
+@ f=2kHz | Vin=1.15V | Vout = 26V | P= 42.25W | VCC=50V | PR1=0.3k | C_SpeedUp = 100n	
+
+- THD = 0.000383%
+
+
+Sin protección de corriente:
+
+@ f=2kHz | Vin=0.5V | Vout = 11.3V | P= 8W | VCC=50V | PR1=0.3k | C_SpeedUp = 100n	
+
+THD = 0.000067%
+
+
+Sin protección de corriente:
+
+@ f=2kHz | Vin=2.0V | Vout = 45V | P= 125W | VCC=50V | PR1=0.3k | C_SpeedUp = 100n	
+
+THD = 0.003969%
+
+En las simulaciones se utilizaron las primeras 40 armónicas para el cálculo de la THD. El cálculo fue realizado integramente con el programa LTSpice.
+
+Como conlcusión se puede extraer que la protección utilizada no es viable si se desea realizar un diseño de muy baja distorsión. Por lo tanto se deberá diseñar otro tipo de protección que mantenga la THD baja.
+
+
