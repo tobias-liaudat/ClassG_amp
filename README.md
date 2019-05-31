@@ -7,4 +7,4 @@ Luego se incluiran las especificaciones de diseño a cumplir.
 Integrantes:
 - Tobias Ignacio Liaudat
 - Germán Speichert
-- Federico Muñóz Macia
+- Federico Muñoz Macia
