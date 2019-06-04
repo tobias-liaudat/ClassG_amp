@@ -119,3 +119,39 @@ En las simulaciones se utilizaron las primeras 40 armónicas para el cálculo de
 Como conlcusión se puede extraer que la protección utilizada no es viable si se desea realizar un diseño de muy baja distorsión. Por lo tanto se deberá diseñar otro tipo de protección que mantenga la THD baja.
 
 
+---
+
+## 6: Protección de corriente de la etapa de salida v2
+
+Luego de pasar por varios subcircuitos de protección de corriente se optó por elegir el siguiente, por su simplicidad y buen funcionamiento. 
+
+<p align="center">
+  <img src="../imagenes/current_protection_v2.png?raw=true" width="400" title="hover text">
+</p>
+
+Vamos a presentar una simulación para ver el circuito de protección en sus casos de funcionamiento, cuando la carga entra en cortocircuito (La carga de 8 Ohms pasa a estar en paralelo con una de 0.1 Ohm) y cuando la entrada de señal es demasiado grande (Vin=3.5Vp) exigiendo por demás al circuito. 
+
+Podemos ver que el circuito limita la corriente en valores que rondan los 6A.
+
+
+<p align="center">
+  <img src="../imagenes/sim_proteccion_corriente_v2.png?raw=true" width="400" title="hover text">
+</p>
+
+Se estudió la distorsión armónica que introduce este subcircuito de protección y los resultados obtenidos fueron satisfactorios:
+
+
+
+@ f=2kHz | Vin=1.15V | Vout = 26V | P= 42.25W | VCC=50V | PR1=0.3k | C_SpeedUp = 100n	
+
+- THD = 0.001214%
+
+
+@ f=20kHz | Vin=1.15V | Vout = 26V | P= 42.25W | VCC=50V | PR1=0.3k | C_SpeedUp = 100n	
+
+- THD = 0.004974%
+
+
+A pesar de que la THD aumentó con respecto al circuito sin protección contra corriente, sigue manteniendo un nivel bajo de distorsión incluso para frecuencias altas como los 20kHz.
+
+
