@@ -1,0 +1,11 @@
+
+
+***
+@2kHz | Vin=1.15V | VCC=50V | PR1=0.3k | C_speedUp = 100n
+
+THD = 0.001214%
+
+***
+@20kHz | Vin=1.15V | VCC=50V | PR1=0.3k | C_speedUp = 100n
+
+THD = 0.004974%
