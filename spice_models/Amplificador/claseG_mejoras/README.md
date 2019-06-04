@@ -126,16 +126,16 @@ Como conlcusión se puede extraer que la protección utilizada no es viable si s
 Luego de pasar por varios subcircuitos de protección de corriente se optó por elegir el siguiente, por su simplicidad y buen funcionamiento. 
 
 <p align="center">
-  <img src="../imagenes/current_protection_v2.png?raw=true" width="400" title="hover text">
+  <img src="../imagenes/current_protection_v2.png?raw=true" width="500" title="hover text">
 </p>
 
 Vamos a presentar una simulación para ver el circuito de protección en sus casos de funcionamiento, cuando la carga entra en cortocircuito (La carga de 8 Ohms pasa a estar en paralelo con una de 0.1 Ohm) y cuando la entrada de señal es demasiado grande (Vin=3.5Vp) exigiendo por demás al circuito. 
 
-Podemos ver que el circuito limita la corriente en valores que rondan los 6A.
+Podemos ver que el circuito limita la corriente en valores que rondan los 6A. Las simulaciones fueron realizadas con el circuito «ClassG_DS_test3.asc».
 
 
 <p align="center">
-  <img src="../imagenes/sim_proteccion_corriente_v2.png?raw=true" width="400" title="hover text">
+  <img src="../imagenes/sim_proteccion_corriente_v2.png?raw=true" width="600" title="hover text">
 </p>
 
 Se estudió la distorsión armónica que introduce este subcircuito de protección y los resultados obtenidos fueron satisfactorios:
