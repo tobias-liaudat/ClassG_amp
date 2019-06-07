@@ -1,0 +1,108 @@
+Simulación:
+
+% ------------------------------------------------------
+VCC = 30V
+VCC1 = 15V
+
+Freq = 1kHz
+step1: Vi=0.5V
+step2: Vi=0.9V
+step3: Vi=1.2V
+
+
+Measurement: pmed_f
+  step	(pmed_fuentes_pos + pmed_fuentes_neg)
+     1	23.1147
+     2	49.0835
+     3	64.2288
+
+Measurement: pmed_rl
+  step	AVG(v(vout)*(-i(rl)))	FROM	TO
+     1	8.03109	0	0.015
+     2	26.0242	0	0.015
+     3	44.971	0	0.015
+
+Measurement: eff
+  step	(pmed_rl / pmed_f)
+     1	0.347446
+     2	0.530203
+     3	0.70017
+
+
+TDH measurement:
+
+step1:
+DC component:-0.0222145
+THD = 0.009467%
+
+step2:
+DC component:-0.0404196
+THD = 0.001062%
+
+step3:
+DC component:0.0850236
+THD = 2.451953%
+
+*Nota: En el step3 la forma de onda ya se encuentra recortada en sus extremos, de ahí el alto THD.
+
+% -------------------------------------------------------------
+
+VCC = 40V
+VCC1 = 15V
+
+Freq = 1kHz
+step1: Vi=0.5V
+step2: Vi=0.9V
+step3: Vi=1.2V
+step4: Vi=1.4V
+step5: Vi=1.6V
+
+Measurement: pmed_f
+  step	(pmed_fuentes_pos + pmed_fuentes_neg)
+     1	24.2839
+     2	62.9986
+     3	85.4635
+     4	100.099
+	 5	114.006
+
+Measurement: pmed_rl
+  step	AVG(v(vout)*(-i(rl)))	FROM	TO
+     1	8.03183	0	0.015
+     2	26.0244	0	0.015
+     3	46.2658	0	0.015
+     4	62.9732	0	0.015
+     5	81.5757	0	0.015
+
+Measurement: eff
+  step	(pmed_rl / pmed_f)
+     1	0.330747
+     2	0.413094
+     3	0.541351
+     4	0.629112
+     5	0.715538
+
+
+TDH measurement:
+
+step1:
+DC component:-0.0223611
+THD = 0.004690%
+
+step2:
+DC component:-0.0403925
+THD = 0.001081%
+
+step3:
+DC component:-0.0540103
+THD =  0.001105%
+
+step4:
+DC component:-0.0631402
+THD =  0.000932%
+
+step5:
+DC component:-0.00225789
+THD =  1.044296%
+
+*Nota: En el step5 la forma de onda a la salida ya esta recortada.
+
