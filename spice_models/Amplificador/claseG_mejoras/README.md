@@ -175,6 +175,8 @@ Otro problema que surge en el diseño es la diferencia entre la parte positiva y
 
 Se deseó fijar la corriente de limitación en aproximadamente 5A considerando una tensión máxima de salida de 30V  que son 56.25W sobre la carga. No es una tarea tan simple la elección de los resistores ya que a esa potencia la corriente que entrega la etapa de salida es de 3.75A pico. No hay tanta diferencia entre tal valor y el de corte. Por eso se desea que el transistor de protección se encienda abruptamente a los 5A pero que se encuentre lejos de encenderse cuando estamos en la potencia máxima para que no haya distorsión. En la siguiente figura puede verse la simulación de un cortocircuito a la salida realizado con un resistor de 0.01 Ohm puesto en paralelo con la carga.
 
+Una forma de lograr el cambio abrupto es utilizar resistores de bajo valor y ajustar el divisor siguiendo los lineamientos descritos. Se intentó realizar un diseño con capacitores para diferenciar el circuito de protección para la continua y la alterna pero no es tan simple pues las corrientes que circulan son bajas y no se pueden utilizar capacitores grandes pues su transitorio es muy grande. Al utilizar transistores chicos no se puede lograr el efecto deseado. Por lo tanto el diseño elegido es el siguiente:
+
 <p align="center">
   <img src="../imagenes/current_sim_v3.png?raw=true" width="600" title="hover text">
 </p>
