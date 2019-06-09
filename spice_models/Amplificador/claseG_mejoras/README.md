@@ -155,3 +155,27 @@ Se estudió la distorsión armónica que introduce este subcircuito de protecci�
 A pesar de que la THD aumentó con respecto al circuito sin protección contra corriente, sigue manteniendo un nivel bajo de distorsión incluso para frecuencias altas como los 20kHz.
 
 
+---
+
+## 7: Protección de corriente de la etapa de salida v3
+
+Se desea bajar la corriente máxima del limitador. Para tal motivo, necesitamos una mayor tensión en el resistor de sensado de corriente. Como no es la intención incluir algún tipo de amplificación de dicha tensión no hay más remedio que aumentar el resistor de sensado. Se pasó a 0.22 Ohm. 
+
+Luego, si continuamos con el diseño previamente utilizado la corriente de limitación quedaría demasiado bajan limitando la salida del amplificador por debajo de la potencia máxima. Por lo tanto se inluye el divisor resistivo que se puede ver en la imagen a continuación.
+
+<p align="center">
+  <img src="../imagenes/proteccion_corriente_v3.png?raw=true" width="600" title="hover text">
+</p>
+
+Este diseño a pesar de verse sencillo no lo es tanto. Existe un compromiso entre la limitación temprana de corriente y la linealidad del amplificador representado por la distorsión armónica THD. Si la ganancia del divisor es demasiado baja la linealidad será muy buena ya que para el rango de corrientes del amplificador la protección se encontrará lejos de polarizarse. Sin embargo, cuando la carga se encuentre en cortocircuito la corriente que limite será alta. Por otro lado, si fijamos una corriente de limitación baja, el protector comenzará a introducir una distorsión significante cuando trabajamos cerca de las potencias máximas del amplificador. 
+
+
+Otro problema que surge en el diseño es la diferencia entre la parte positiva y negativa del amplificador. El protector de la parte negativa, transistor PNP, tiene que drenar mucha más corriente del driver negativo que el protector de la parte positiva, transistor NPN, del driver positivo. Esto hace que el protector de la parte negativa sea la más influya en la distorsión del amplificador. 
+
+
+Se deseó fijar la corriente de limitación en aproximadamente 5A considerando una tensión máxima de salida de 30V  que son 56.25W sobre la carga. No es una tarea tan simple la elección de los resistores ya que a esa potencia la corriente que entrega la etapa de salida es de 3.75A pico. No hay tanta diferencia entre tal valor y el de corte. Por eso se desea que el transistor de protección se encienda abruptamente a los 5A pero que se encuentre lejos de encenderse cuando estamos en la potencia máxima para que no haya distorsión. En la siguiente figura puede verse la simulación de un cortocircuito a la salida realizado con un resistor de 0.01 Ohm puesto en paralelo con la carga.
+
+<p align="center">
+  <img src="../imagenes/current_sim_v3.png?raw=true" width="600" title="hover text">
+</p>
+
