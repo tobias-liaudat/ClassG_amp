@@ -80,4 +80,20 @@ Se utilizó la siguiente simulación para el cálculo del Slew rate. Para tal mo
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
+## Transferencia y ancho de banda
+
+Se simuló la transferencia. Está tiene una zona plana muy amplia con una ganancia de 24.7dB @ 1kHz que va desde los 1.3Hz hasta los 836kHz. Estos puntos están definidos por la caida de 3dB respecto de la ganancia en la zona plana.
+
+- ** BW = 1.3Hz - 836kHz **
+
+- ** Ganancia = 24.7dB (17.2 veces) @ 1kHz ** 
+
+<p align="center">
+  <img src="../imagenes/bandwidth_def.png?raw=true" width="300" title="hover text">
+</p>
+
+- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+
+
+
 
