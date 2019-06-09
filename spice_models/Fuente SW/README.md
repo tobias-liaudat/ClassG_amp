@@ -24,3 +24,42 @@ El modo de operación a elegir depende basicamente de las especificaciones que n
 - Las corrientes pico sobre inductor, diodo y transistor son de un valor mucho más chico en comparación con el modo DCM.
 - La tensión de salida depende unicamente del ciclo de trabajo en el transistor de conmutación.
 - Suelen tener mejor eficiencia que en modo DCM
+
+A continuación se detallan los valores necesarios de componentes para cada modo así como sus limitaciones:
+
+Vi = 15V
+Vi_min = 14V
+Vi_max = 16V
+Vo = 40V
+Frecuencia de conmutación: 52 kHz
+
+**Modo CCM**:
+
+Duty Cycle = 1-Vi/Vo = 0.638
+Ton = 12.3 us;
+Toff = 7 us;
+
+Corriente | Inductancia mínima (CCM) 
+----------------|----------------
+Iout_min = 20mA | L_min = 7.6 mH 
+Iout_min = 50mA | L_min = 3.0 mH 
+Iout_min = 100mA | L_min = 1.5 mH 
+Iout_min = 2.5 A | L_min = 60 uH 
+
+Tomando un **L = 5mH**,en regimen estacionario: **IL_max (peak) = 7.3A**
+
+**Modo DCM**:
+
+Duty Cycle (2.5A) = 0.373
+Ton = 7.17 us;
+
+Considerando n = 0.8; Iout = 2.5A --> L_max(DCM) = 10.2 uH
+
+Elegimos una inductancia **L = 8uH** (Cuanto mayor la inductancia menor el pico de corriente así que conviene elegirlo lo más cercano al teórico máximo).
+
+En regimen estacionario: **IL_max(peak) = 16.0A**
+
+
+
+
+
