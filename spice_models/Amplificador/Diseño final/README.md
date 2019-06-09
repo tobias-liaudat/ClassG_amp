@@ -7,15 +7,26 @@
 
 En este caso se simuló a cuatro frecuencias, dos bajas y dos altas, y a dos valores de potencia, una la máxima 50w y otra a un 60% de la misma, 30w.
 
+- C_comp = 30pF:
+
+| Frecuencia [kHz]     	|     1     	|     2     	|     10    	|     20    	|
+|----------------------	|:---------:	|:---------:	|:---------:	|:---------:	|
+| Pot=50W (Vin=1.74Vp) 	| 0.001492% 	| 0.002958% 	| 0.005022% 	| 0.044571% 	|
+| Pot=30W (Vin=1.27Vp) 	| 0.001541% 	| 0.003944% 	| 0.013176% 	| 0.017750% 	|
+
+Podemos observar en la tabla una distorsión considerablemente baja en todo el rango de frecuencia para ambas potencias del amplificador.
+
+- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+
+A continuación se encuentra una tabla alternativa que se simulo al usar un capacitor de compensación de 20pF. 
+Aunque los valores de distorsión sean mejores el circuito presentaba un sobrepico fuerte en la respuesta al escalon.
+
+- C_comp = 20pF:
 
 | Frecuencia [kHz]     	|     1     	|     2     	|     10    	|     20    	|
 |----------------------	|:---------:	|:---------:	|:---------:	|:---------:	|
 | Pot=50W (Vin=1.74Vp) 	| 0.001425% 	| 0.002869% 	| 0.004304% 	| 0.030751% 	|
 | Pot=30W (Vin=1.27Vp) 	| 0.001445% 	| 0.003932% 	| 0.012930% 	| 0.016209% 	|
-
-Podemos observar en la tabla una distorsión considerablemente baja en todo el rango de frecuencia para ambas potencias del amplificador.
-
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
 ## Impedancia de entrada
@@ -52,10 +63,21 @@ El valor de impedancia de salida se mantienenbajo para el ancho de frecuencia de
   <img src="../imagenes/Rout_def.png?raw=true" width="300" title="hover text">
 </p>
 
-
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
+## Slew rate
+
+Se utilizó la siguiente simulación para el cálculo del Slew rate. Para tal motivo se excitó al circuito con un escalón de tensión y se midió el tiempo de crecimiento del 10% hasta el 90% del valor final que fue de 65ns.
+
+- ** Slew rate = ( 3.465V / 65ns) = 51.25 V/us**
+
+
+<p align="center">
+  <img src="../imagenes/slew_rate_def.png?raw=true" width="300" title="hover text">
+</p>
+
+- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
 
