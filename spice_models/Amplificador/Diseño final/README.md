@@ -16,7 +16,7 @@ En este caso se simuló a cuatro frecuencias, dos bajas y dos altas, y a dos val
 
 Podemos observar en la tabla una distorsión considerablemente baja en todo el rango de frecuencia para ambas potencias del amplificador.
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/THD).*
 
 A continuación se encuentra una tabla alternativa que se simulo al usar un capacitor de compensación de 20pF. 
 Aunque los valores de distorsión sean mejores el circuito presentaba un sobrepico fuerte en la respuesta al escalon.
@@ -47,7 +47,12 @@ Justamente el anchod de banda del valor de la impedancia de entrada es de 20Hz a
 
 
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Rin).*
+
+
+## Sensibilidad
+
+Siguiendo los valores típicos de sensibilidad para los equipos de [audio profesional](https://en.wikipedia.org/wiki/Line_level) se buscó que la máxima potencia sobre la carga, 50W, se dé cuando al tensión a la entrada es de Vin = 1.736Vp. Para tal fin se ajusto la ganancia total del circuito para que esta sea de 17.2 y con 1.736Vp obtengamos una tensión a la salida de 29.85Vp que representa 55.7W sobre la carga. Se le dió un margen de 10% al valor.
 
 
 ## Impedancia de salida
@@ -63,7 +68,7 @@ El valor de impedancia de salida se mantienenbajo para el ancho de frecuencia de
   <img src="../imagenes/Rout_def.png?raw=true" width="1000" title="hover text">
 </p>
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Rout).*
 
 
 ## Factor de amortiguamiento FA
@@ -84,7 +89,7 @@ Se utilizó la siguiente simulación para el cálculo del Slew rate. Para tal mo
   <img src="../imagenes/slew_rate_def.png?raw=true" width="1000" title="hover text">
 </p>
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/SlewRate).*
 
 
 ## Transferencia y ancho de banda
@@ -99,7 +104,7 @@ Se simuló la transferencia. Está tiene una zona plana muy amplia con una ganan
   <img src="../imagenes/bandwidth_def.png?raw=true" width="1000" title="hover text">
 </p>
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Bandwidth).*
 
 
 ## Protección contra cortocircuito a la salida
@@ -111,7 +116,7 @@ Se simuló un cortocircuito a la salida para poner a prueba la protección contr
   <img src="../imagenes/proteccion_def.png?raw=true" width="1000" title="hover text">
 </p>
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/proteccion_corriente).*
 
 
 ## Eficiencia
@@ -136,5 +141,5 @@ Se calculó la eficiencia para diferentes valores de potencia. Luego se graficar
   <img src="../imagenes/eficiencia_def.png?raw=true" width="1000" title="hover text">
 </p>
 
-- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Eficiencia).*
 
