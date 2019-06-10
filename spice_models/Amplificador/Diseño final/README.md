@@ -1,7 +1,20 @@
 # Diseño final del amplificador clase G
 
+## Polarización
 
+Los valores de polarización más significativos se pueden observar en la siguiente a continuación.
 
+Estos valores se ajustaron para que el amplificador mantenga buenas carácterísticas.
+
+| Componentes                      	| Valores  	|
+|----------------------------------	|----------	|
+| Fuente corriente par diferencial 	| 5.7 mA   	|
+| Fuente corriente VAS             	| 18.2 mA  	|
+| Multiplicador Vbe                	| 2.63 V   	|
+| Corriente rama salida            	| 22.8 mA  	|
+| Tensión salida                   	| 486 uV   	|
+
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/THD).*
 
 ## Total Harmonic Distorsion (THD)
 
