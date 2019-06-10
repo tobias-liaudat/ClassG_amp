@@ -1,0 +1,189 @@
+Circuit: * C:\users\tliaudat\My Documents\Documents\Facultad\FIUBA\Materias\DCE\2019\TPF\modelos\caracteristicas\eficiencia\ClassG_eficiencia.asc
+
+Warning: Multiple definitions of model "mpsa92" Type: BJT
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+vernier = 0.666667
+Gmin = 4.6652e-006
+vernier = 0.333333
+vernier = 0.166667
+vernier = 0.0833333
+vernier = 0.0416667
+Gmin = 4.38536e-006
+vernier = 0.0208333
+vernier = 0.0104167
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 4.37823e-006
+vernier = 0.00173611
+vernier = 0.00231481
+Gmin = 4.35675e-006
+vernier = 0.00308642
+vernier = 0.00411522
+Gmin = 4.32272e-006
+vernier = 0.00548696
+Gmin = 4.26972e-006
+vernier = 0.00731595
+vernier = 0.00975459
+Gmin = 4.18221e-006
+vernier = 0.0130061
+vernier = 0.0173415
+Gmin = 4.04645e-006
+vernier = 0.023122
+Gmin = 3.84185e-006
+vernier = 0.0308293
+vernier = 0.0411057
+Gmin = 3.52186e-006
+vernier = 0.0548076
+vernier = 0.0730768
+Gmin = 3.06694e-006
+vernier = 0.0974357
+Gmin = 2.46912e-006
+vernier = 0.129914
+vernier = 0.173219
+Gmin = 1.72033e-006
+vernier = 0.230959
+vernier = 0.307945
+Gmin = 9.72962e-007
+vernier = 0.410593
+Gmin = 4.02377e-007
+vernier = 0.547457
+vernier = 0.729942
+Gmin = 9.53232e-008
+vernier = 0.973256
+vernier = 1
+Gmin = 1.18114e-008
+Gmin = 1.26824e-009
+Gmin = 1.36176e-010
+Gmin = 1.46218e-011
+Gmin = 1.57001e-012
+Gmin = 1.68578e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step vi=0.0735
+Changing Tseed to 1e-011
+.step vi=0.165
+.step vi=0.23
+.step vi=0.52
+.step vi=0.735
+.step vi=0.84
+.step vi=0.9
+.step vi=0.96
+.step vi=1.04
+.step vi=1.16
+.step vi=1.27
+.step vi=1.47
+.step vi=1.64
+
+
+Measurement: pmed_fuentes_neg
+  step	AVG((v(m_va)*(i(m_va)))+(v(m_vb)*(i(m_vb))))	FROM	TO
+     1	2.03729	0	0.015
+     2	2.94971	0	0.015
+     3	3.61715	0	0.015
+     4	6.62012	0	0.015
+     5	14.0288	0	0.015
+     6	18.552	0	0.015
+     7	20.7594	0	0.015
+     8	22.8385	0	0.015
+     9	25.4822	0	0.015
+    10	29.2723	0	0.015
+    11	32.6271	0	0.015
+    12	38.5459	0	0.015
+    13	43.458	0	0.015
+
+Measurement: pmed_fuentes_pos
+  step	AVG((v(va)*(-i(va)))+(v(vb)*(-i(vb))))	FROM	TO
+     1	2.09516	0	0.015
+     2	3.0071	0	0.015
+     3	3.67382	0	0.015
+     4	6.66879	0	0.015
+     5	14.5467	0	0.015
+     6	18.8966	0	0.015
+     7	21.0629	0	0.015
+     8	23.1141	0	0.015
+     9	25.7318	0	0.015
+    10	29.4956	0	0.015
+    11	32.834	0	0.015
+    12	38.7327	0	0.015
+    13	43.6336	0	0.015
+
+Measurement: pmed_f
+  step	(pmed_fuentes_pos + pmed_fuentes_neg)
+     1	4.13245
+     2	5.95682
+     3	7.29097
+     4	13.2889
+     5	28.5755
+     6	37.4486
+     7	41.8224
+     8	45.9525
+     9	51.214
+    10	58.7679
+    11	65.4611
+    12	77.2786
+    13	87.0916
+
+Measurement: pmed_rl
+  step	AVG(v(vout)*(-i(rl)))	FROM	TO
+     1	0.100165	0	0.015
+     2	0.504808	0	0.015
+     3	0.980933	0	0.015
+     4	5.01353	0	0.015
+     5	10.0181	0	0.015
+     6	13.0847	0	0.015
+     7	15.0206	0	0.015
+     8	17.09	0	0.015
+     9	20.057	0	0.015
+    10	24.9526	0	0.015
+    11	29.9092	0	0.015
+    12	40.071	0	0.015
+    13	49.8752	0	0.015
+
+Measurement: eff
+  step	(pmed_rl / pmed_f)
+     1	0.0242386
+     2	0.0847446
+     3	0.134541
+     4	0.377272
+     5	0.350583
+     6	0.349403
+     7	0.359152
+     8	0.371906
+     9	0.391632
+    10	0.424595
+    11	0.456901
+    12	0.518526
+    13	0.572675
+
+
+Date: Sun Jun 09 21:15:55 2019
+Total elapsed time: 162.515 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 329136
+traniter = 327031
+tranpoints = 162982
+accept = 161841
+rejected = 1140
+matrix size = 124
+fillins = 279
+solver = Normal
+Thread vector: 17.8/13.6[2] 7.2/4.4[2] 3.7/3.0[2] 1.1/1.8[1]  2592/500
+Matrix Compiler1: 28.77 KB object code size  4.5/2.4/[1.7]
+Matrix Compiler2: 15.92 KB object code size  2.0/2.1/[1.2]
+
+
