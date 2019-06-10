@@ -61,7 +61,7 @@ En regimen estacionario: **IL_max(peak) = 16.0A**
 
 ### Simulaciones en modo CCM - L = 10mH 
 
-Se simulo en LTSpice un modelo de fuente Boost dual donde la carga varía abruptamente entre 600 y 16 ohms a fin de probar la regulación de carga y el tiempo que tarda en estabilizarse ante cambios en la carga.
+Se simulo en LTSpice un modelo de fuente Boost dual donde la carga varía abruptamente entre 600 y 16 ohms a fin de probar la regulación de carga y el tiempo que tarda en estabilizarse ante cambios en la carga. La simulación se realizo de tal manera que el circuito enciende con la carga de 600 ohms (amplificador sin señal a la entrada) y a partir de 350ms se realizan los cambios de carga alternando cada 10ms entre 600 y 16 ohms.
 
 <p align="center">
   <img src="./CCM_10mH_circ.png" width="800" title="hover text">
