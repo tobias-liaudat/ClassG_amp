@@ -66,11 +66,18 @@ El valor de impedancia de salida se mantienenbajo para el ancho de frecuencia de
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
+## Factor de amortiguamiento FA
+
+Este factor se puede calcular a partir de la simulación de la impedancia de salida y de que el valor de la carga que vamos a usar es de 8 Ohms.
+
+- **FA = 8 Ohm / 1.16mOhm =  6896 @ 1kHz**
+
+
 ## Slew rate
 
 Se utilizó la siguiente simulación para el cálculo del Slew rate. Para tal motivo se excitó al circuito con un escalón de tensión y se midió el tiempo de crecimiento del 10% hasta el 90% del valor final que fue de 65ns.
 
-- ** Slew rate = ( 3.465V / 65ns) = 51.25 V/us**
+- **Slew rate = ( 3.465V / 65ns) = 51.25 V/us**
 
 
 <p align="center">
@@ -80,13 +87,13 @@ Se utilizó la siguiente simulación para el cálculo del Slew rate. Para tal mo
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
-## Transferencia y ancho de banda
+## Transferencia y ancho de banda
 
 Se simuló la transferencia. Está tiene una zona plana muy amplia con una ganancia de 24.7dB @ 1kHz que va desde los 1.3Hz hasta los 836kHz. Estos puntos están definidos por la caida de 3dB respecto de la ganancia en la zona plana.
 
-- ** BW = 1.3Hz - 836kHz **
+- **BW = 1.3Hz - 836kHz **
 
-- ** Ganancia = 24.7dB (17.2 veces) @ 1kHz ** 
+- **Ganancia = 24.7dB (17.2 veces) @ 1kHz ** 
 
 <p align="center">
   <img src="../imagenes/bandwidth_def.png?raw=true" width="300" title="hover text">
@@ -107,9 +114,18 @@ Se simuló un cortocircuito a la salida para poner a prueba la protección contr
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
+## Eficiencia
+
+Se calculó la eficiencia para diferentes valores de potencia.  
 
 
+| Potencia RL [W] 	|   0.1  	|  0.5  	|   1   	|   5   	| 10    	| 13    	| 15    	| 17    	| 20    	| 25    	| 30    	| 40    	| 50    	|
+|-----------------	|:------:	|:-----:	|:-----:	|:-----:	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|
+| Vin [V] @ 1kHz  	| 0.0735 	| 0.165 	|  0.23 	|  0.52 	| 0.735 	| 0.84  	| 0.90  	| 0.96  	| 1.04  	| 1.16  	| 1.27  	| 1.47  	| 1.64  	|
+| Vout [V] @ 1kHz 	|  1.265 	|  2.83 	|  4.0  	|  8.94 	| 12.65 	| 14.42 	| 15.49 	| 16.49 	| 17.89 	| 20.0  	| 21.91 	| 25.30 	| 28.28 	|
+| Pot Fuentes [W] 	| 4.13   	| 5.96  	| 7.29  	| 13.29 	| 28.57 	| 37.45 	| 41.82 	| 45.95 	| 51.21 	| 58.76 	| 65.46 	| 77.28 	| 87.09 	|
+| Eficiencia      	| 0.024  	| 0.085 	| 0.134 	| 0.377 	| 0.351 	| 0.349 	| 0.359 	| 0.372 	| 0.392 	| 0.424 	| 0.457 	| 0.518 	| 0.573 	
 
-
-
-
+<p align="center">
+  <img src="../imagenes/eficiencia.pdf?raw=true" width="300" title="hover text">
+</p>
