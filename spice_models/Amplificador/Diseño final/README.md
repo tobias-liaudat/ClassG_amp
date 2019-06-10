@@ -14,7 +14,7 @@ Estos valores se ajustaron para que el amplificador mantenga buenas carácterís
 | Corriente rama salida            	| 22.8 mA  	|
 | Tensión salida                   	| 486 uV   	|
 
-- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/THD).*
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/polarizacion).*
 
 ## Total Harmonic Distorsion (THD)
 
