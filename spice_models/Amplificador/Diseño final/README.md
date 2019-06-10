@@ -1,5 +1,8 @@
 # Diseño final del amplificador clase G
 
+A continuación se van a describir varias características del amplificador que fueron simuladas utilizando los componentes reales que se utilizaran para el diseño donde su lista se encuentra [aquí](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/claseG_componentes_reales). El circuito del diseño final se encuentra [aquí](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Dise%C3%B1oFinal).
+
+
 ## Polarización
 
 Los valores de polarización más significativos se pueden observar en la siguiente a continuación.
