@@ -59,6 +59,20 @@ Elegimos una inductancia **L = 8uH** (Cuanto mayor la inductancia menor el pico 
 
 En regimen estacionario: **IL_max(peak) = 16.0A**
 
+### Simulaciones en modo CCM - L = 10mH 
+
+Se simulo en LTSpice un modelo de fuente Boost dual donde la carga varía abruptamente entre 600 y 16 ohms a fin de probar la regulación de carga y el tiempo que tarda en estabilizarse ante cambios en la carga.
+
+<p align="center">
+  <img src="./CCM_10mH_circ.png" width="800" title="hover text">
+</p>
+
+
+<p align="center">
+  <img src="./CCM_10mH.png" width="500" title="hover text">
+</p>
+
+
 
 
 
