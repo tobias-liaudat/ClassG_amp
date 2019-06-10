@@ -95,5 +95,21 @@ Se simuló la transferencia. Está tiene una zona plana muy amplia con una ganan
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
 
 
+## Protección contra cortocircuito a la salida
+
+Se simuló un cortocircuito a la salida para poner a prueba la protección contra cortocircuito. Se lo hizo al poner en paralelo de la carga un resistor de 0.01 Ohms. Como se encuentra descrito en una [sección anterior](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/claseG_mejoras), la corriente de limitación esta fijada alrededor de 5A como se puede ver en la siguiente simulación:
+
+
+<p align="center">
+  <img src="../imagenes/proteccion_def.png?raw=true" width="300" title="hover text">
+</p>
+
+- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+
+
+
+
+
+
 
 
