@@ -42,7 +42,7 @@ Justamente el anchod de banda del valor de la impedancia de entrada es de 20Hz a
 
 
 <p align="center">
-  <img src="../imagenes/Rin_def.png?raw=true" width="300" title="hover text">
+  <img src="../imagenes/Rin_def.png?raw=true" width="1000" title="hover text">
 </p>
 
 
@@ -60,7 +60,7 @@ El valor de impedancia de salida se mantienenbajo para el ancho de frecuencia de
 
 
 <p align="center">
-  <img src="../imagenes/Rout_def.png?raw=true" width="300" title="hover text">
+  <img src="../imagenes/Rout_def.png?raw=true" width="1000" title="hover text">
 </p>
 
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
@@ -81,7 +81,7 @@ Se utilizó la siguiente simulación para el cálculo del Slew rate. Para tal mo
 
 
 <p align="center">
-  <img src="../imagenes/slew_rate_def.png?raw=true" width="300" title="hover text">
+  <img src="../imagenes/slew_rate_def.png?raw=true" width="1000" title="hover text">
 </p>
 
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
@@ -96,7 +96,7 @@ Se simuló la transferencia. Está tiene una zona plana muy amplia con una ganan
 - **Ganancia = 24.7dB (17.2 veces) @ 1kHz ** 
 
 <p align="center">
-  <img src="../imagenes/bandwidth_def.png?raw=true" width="300" title="hover text">
+  <img src="../imagenes/bandwidth_def.png?raw=true" width="1000" title="hover text">
 </p>
 
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
@@ -108,7 +108,7 @@ Se simuló un cortocircuito a la salida para poner a prueba la protección contr
 
 
 <p align="center">
-  <img src="../imagenes/proteccion_def.png?raw=true" width="300" title="hover text">
+  <img src="../imagenes/proteccion_def.png?raw=true" width="1000" title="hover text">
 </p>
 
 - *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
@@ -116,16 +116,25 @@ Se simuló un cortocircuito a la salida para poner a prueba la protección contr
 
 ## Eficiencia
 
-Se calculó la eficiencia para diferentes valores de potencia.  
+Se calculó la eficiencia para diferentes valores de potencia. Luego se graficaron los valores obtenidos en las siguientes tablas.
 
+| Potencia RL [W] 	|   0.1  	|  0.5  	|   1   	|   5   	| 10    	| 13    	|
+|-----------------	|:------:	|:-----:	|:-----:	|:-----:	|-------	|-------	|
+| Vin [V] @ 1kHz  	| 0.0735 	| 0.165 	|  0.23 	|  0.52 	| 0.735 	| 0.84  	|
+| Vout [V] @ 1kHz 	|  1.265 	|  2.83 	|  4.0  	|  8.94 	| 12.65 	| 14.42 	|
+| Pot Fuentes [W] 	| 4.13   	| 5.96  	| 7.29  	| 13.29 	| 28.57 	| 37.45 	|
+| Eficiencia      	| 0.024  	| 0.085 	| 0.134 	| 0.377 	| 0.351 	| 0.349 	|
 
-| Potencia RL [W] 	|   0.1  	|  0.5  	|   1   	|   5   	| 10    	| 13    	| 15    	| 17    	| 20    	| 25    	| 30    	| 40    	| 50    	|
-|-----------------	|:------:	|:-----:	|:-----:	|:-----:	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|
-| Vin [V] @ 1kHz  	| 0.0735 	| 0.165 	|  0.23 	|  0.52 	| 0.735 	| 0.84  	| 0.90  	| 0.96  	| 1.04  	| 1.16  	| 1.27  	| 1.47  	| 1.64  	|
-| Vout [V] @ 1kHz 	|  1.265 	|  2.83 	|  4.0  	|  8.94 	| 12.65 	| 14.42 	| 15.49 	| 16.49 	| 17.89 	| 20.0  	| 21.91 	| 25.30 	| 28.28 	|
-| Pot Fuentes [W] 	| 4.13   	| 5.96  	| 7.29  	| 13.29 	| 28.57 	| 37.45 	| 41.82 	| 45.95 	| 51.21 	| 58.76 	| 65.46 	| 77.28 	| 87.09 	|
-| Eficiencia      	| 0.024  	| 0.085 	| 0.134 	| 0.377 	| 0.351 	| 0.349 	| 0.359 	| 0.372 	| 0.392 	| 0.424 	| 0.457 	| 0.518 	| 0.573 	
+| Potencia RL [W] 	| 15    	| 17    	| 20    	| 25    	| 30    	| 40    	| 50    	|
+|-----------------	|-------	|-------	|-------	|-------	|-------	|-------	|-------	|
+| Vin [V] @ 1kHz  	| 0.90  	| 0.96  	| 1.04  	| 1.16  	| 1.27  	| 1.47  	| 1.64  	|
+| Vout [V] @ 1kHz 	| 15.49 	| 16.49 	| 17.89 	| 20.0  	| 21.91 	| 25.30 	| 28.28 	|
+| Pot Fuentes [W] 	| 41.82 	| 45.95 	| 51.21 	| 58.76 	| 65.46 	| 77.28 	| 87.09 	|
+| Eficiencia      	| 0.359 	| 0.372 	| 0.392 	| 0.424 	| 0.457 	| 0.518 	| 0.573 	|
 
 <p align="center">
-  <img src="../imagenes/eficiencia.pdf?raw=true" width="300" title="hover text">
+  <img src="../imagenes/eficiencia_def.png?raw=true" width="1000" title="hover text">
 </p>
+
+- *El circuito utilizado para la simulación se encuentra [aqui](LINK).*
+
