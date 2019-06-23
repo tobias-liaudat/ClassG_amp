@@ -20,6 +20,13 @@ Se utilizaron dos potenciómetros para poder ajustar los valores del multiplicad
   <img src="../imagenes/realimentador.png?raw=true" width="1000" title="hover text">
 </p>
 
+El circuito esquemático completo del amplificador utilizado es el siguiente:
+
+
+<p align="center">
+  <img src="../imagenes/amplificador_completo_potencias.png?raw=true" width="1000" title="hover text">
+</p>
+
 - El circuito utilizado para los cálculos de potencia y gannacia se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Ajustes_ganancia_alimentacion/ClassG_DEF_v3.asc).
 
 
