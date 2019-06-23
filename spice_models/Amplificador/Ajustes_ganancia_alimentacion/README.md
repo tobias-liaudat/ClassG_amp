@@ -80,7 +80,7 @@ En todos los casos consideramos que la resistencia térmica entre la capsula y e
 Para calcular el valor de los disipadores y ver si es que realmente necesitamos de ellos vamos a tener que realizar los circuitos térmicos correspondientes. Se realizaran con cada transistor en paralelo como una fuente de corriente de potencia o una fuente de tensión de temperatura seguido por dos resistencias térmicas, Rth_jc (juntura-capsula) y Rth_cd (capsula-disipador). Luego, todas las potencias iran hacia el disipador donde se encuentren montados los transistores, que tendrá una única Rth_da (disipador-ambiente). Un caso simple con dos transistores montados sobre el mismo disipador se puede observar en la figura siguiente:
 
 <p align="center">
-  <img src="../imagenes/circuito_termico.png?raw=true" width="1000" title="hover text">
+  <img src="../imagenes/circuito_termico.png?raw=true" width="750" title="hover text">
 </p>
 
 Dadas las potencias que estamos considerando y visto que no deseamos utilizar ventilación forzada vamos a utilizar dos disipadores, uno para la etapa superior de salida y otro para la etapa inferior. El transistor del multiplicador de Vbe tiene que estar acoplado termicamente a la etapa de salida superior. No es necesario utilizar disipadores para los transistores de la etapa VAS (amplificación de tensión).
@@ -128,10 +128,13 @@ En ambos casos necesitamos disipadores. No se mostró pero no es posible usar di
 
 Para elegir el disipador vamos a buscar en los catalogos comerciales, como [este](https://www.disipadores.com/) que tiene una lista extensa de disipadores con sus respectivas dimensiones y sus respectivas resistencias térmicas.
 
-En nuestro caso vamos a usar el **ZD-2K** de 75mm que tiene una Rth_da de **0.92℃/W**. En la siguiente figura se puede observar una imagen del disipador elegido:
+En nuestro caso vamos a usar el **ZD-2K** de 75mm que tiene una Rth_da de **0.92℃/W**. Las dimensiones son de **145mm x 50mm x 75mm** (ancho x largo aletas x alto).
+
+
+En la siguiente figura se puede observar una imagen del disipador elegido:
 
 <p align="center">
-  <img src="../imagenes/disipador.png?raw=true" width="1000" title="hover text">
+  <img src="../imagenes/disipador.png?raw=true" width="400" title="hover text">
 </p>
 
 
