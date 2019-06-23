@@ -1,5 +1,7 @@
 # Ajustes al diseño 
 
+## Tres potencias de salida
+
 En esta sección vamos a realizar algunos ajustes para que el amplificador pueda trabajar con tres tensiones de alimentación distintas. Esto es, la tensión del riel superior de alimentación podría ser tanto 30v, 40v o 50v (utilizando como riel inferior el mismo valor con distinto signo) pudiendo entregarle distintas potencias a la carga de 8 Ohms.
 
 En la tabla siguiente se pueden ver varias características del amplificador para los tres distintos modos de funcionamiento en función de la tensión de alimentación de los rieles superiores. En todos los casos los rieles inferiores se mantuvieron en +15v y -15v.
@@ -11,7 +13,14 @@ En la tabla siguiente se pueden ver varias características del amplificador par
 | R_FB [Ohm]  	| 53.74 	| 27.72 	| 10.6 	|
 | R_Vbe [Ohm] 	| 300   	| 300   	| 220  	|
 
-Se utilizaron dos potenciómetros para poder ajustar los valores del multiplicador de Vbe y de la ganancia del amplificador para cada caso de tensión de alimentación.
+Se utilizaron dos potenciómetros para poder ajustar los valores del multiplicador de Vbe y de la ganancia del amplificador para cada caso de tensión de alimentación. En la tabla precedente se encuentran los valores del potenciómetro de ganancia para los tres casos. El realimentador se puede ver a continuación:
+
+
+<p align="center">
+  <img src="../imagenes/realimentador.png?raw=true" width="1000" title="hover text">
+</p>
+
+- El circuito utilizado para los cálculos de potencia y gannacia se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Ajustes_ganancia_alimentacion/ClassG_DEF_v3.asc).
 
 
 ## Disipadores
@@ -137,8 +146,11 @@ En la siguiente figura se puede observar una imagen del disipador elegido:
   <img src="../imagenes/disipador.png?raw=true" width="400" title="hover text">
 </p>
 
+Es muy importante que el transistor del multiplicador de Vbe esté con un buen acople térmico con el transistor driver de la etapa de potencia de salida superior para evitar un embalamiento térmico. Una sugerencia para la disposición de los transistores se puede ver a continuación en un extracto del libro *Designing Audio Power Amplifiers - Bob Cordell*:
 
-
+<p align="center">
+  <img src="../imagenes/thermal_bias_construction.png?raw=true" width="800" title="hover text">
+</p>
 
 
 
