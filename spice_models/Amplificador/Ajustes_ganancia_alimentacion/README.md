@@ -69,9 +69,9 @@ A continuación se presentan las características de las hojas de datos de los c
 
 | Transistor 	| 2SC5200 	| 2SA1943 	| 2SC4793 	| 2SA1837 	|
 |------------	|:-------:	|:-------:	|:-------:	|---------	|
-| Tj_MAX [C] 	|   150   	|   150   	|   150   	| 150     	|
-| Rth_jc [C] 	|   0.84  	|   0.84  	|   6.25  	| 6.25    	|
-| Rth_cd [C] 	|    2    	|    2    	|    2    	| 2       	|
+| Tj_MAX [℃] 	|   150   	|   150   	|   150   	| 150     	|
+| Rth_jc [℃/W] 	|   0.84  	|   0.84  	|   6.25  	| 6.25    	|
+| Rth_cd [℃/W] 	|    2    	|    2    	|    2    	| 2       	|
 
 En todos los casos consideramos que la resistencia térmica entre la capsula y el disipador (Rth_cd) tiene el mismo valor que es uno típico. 
 
@@ -81,7 +81,58 @@ Para calcular el valor de los disipadores y ver si es que realmente necesitamos 
 
 Figura
 
-Dadas las potencias que estamos considerando y visto que no deseamos utilizar ventilación forzada vamos a utilizar dos disipadores, uno para la etapa superior de salida y otro para la etapa inferior. El transistor del multiplicador de Vbe tiene que estar acoplado termicamente a la etapa de salida superior. No es necesario utilizar disipadores para los transistores de la etapa VAS (amplificación de tensión.
+Dadas las potencias que estamos considerando y visto que no deseamos utilizar ventilación forzada vamos a utilizar dos disipadores, uno para la etapa superior de salida y otro para la etapa inferior. El transistor del multiplicador de Vbe tiene que estar acoplado termicamente a la etapa de salida superior. No es necesario utilizar disipadores para los transistores de la etapa VAS (amplificación de tensión).
+
+Vamos a analizar el aumento de temperatura debido a *Rth_jc + Rth_cd* para cada transistor:
+
+<table>
+<tr><th> Temperatura Etapa Salida Sup. </th><th> Temperatura Etapa Salida Inf. </th></tr> 
+<tr><td>
+  
+| P_Q*(Rth_jc + Rth_cd) 	| Delta T	|
+|-----------------------	|:----:	|
+| Q18 (2SC5200) [℃]     	| 78.1 	|
+| Q19 (2SC5200) [℃]     	| 45.16 	|
+| Q14 (2SC4793) [℃]     	| 9.5 	|
+| Q16 (2SC4793) [℃]     	| 2.31 	|
+| Q8 (2SC4793) [℃]     	| 0.56 	|
+
+</td><td>
+
+| P_Q*(Rth_jc + Rth_cd) 	|   Delta T   	|
+|-----------------------	|:-----:	|
+| Q21 (2SA1943) [W]     	| 72.85 	|
+| Q20 (2SA1943) [W]     	| 52.1 	|
+| Q15 (2SA1837) [W]     	| 11.22 	  |
+| Q17 (2SA1837) [W]     	| 2.56  	|
+
+
+</td></tr> </table>
+
+Vamos a considerar que la temperatura ambiente es de 25℃. Para calcular la Rth_da mínima que requerirá cada grupo de componentes hacemos:
+
+
+Rth_da1_min = (Tj_max - Delta T1_max - Ta) / (Ptot1) = (150℃ - 78.1℃ - 25℃) / 44.9W = 1.05 ℃/W
+
+
+
+Rth_da2_min = (Tj_max - Delta T2_max - Ta) / (Ptot2) = (150℃ - 72.85℃ - 25℃) / 45.6W = 1.15 ℃/W
+
+
+En ambos casos necesitamos disipadores. No se mostró pero no es posible usar disipadores comerciales sin ventilación forzada para evacuar el calor si colocásemos todos los transistores sobre el mismo disipador.
+
+
+### Elección del disipador
+
+Para elegir el disipador vamos a buscar en los catalogos comerciales, como [este](https://www.disipadores.com/) que tiene una lista extensa de disipadores con sus respectivas dimensiones y sus respectivas resistencias térmicas.
+
+En nuestro caso vamos a usar el **ZD-2K** de 75mm que tiene una Rth_da de **0.92℃/W**. En la siguiente figura se puede observar una imagen del disipador elegido:
+
+imagen.
+
+
+
+
 
 
 
