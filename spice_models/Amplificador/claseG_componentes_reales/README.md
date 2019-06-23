@@ -17,9 +17,9 @@ En esta sección se detallan los componentes que se van a utilizar.
 
 ### Q Drivers (complementarios)
 
-- Med Power NPN		BD139	TO-126	SyC electronica		x2	
+- Med Power NPN		2SC4793	TO-220	Microelectronica	x2	
                                                 
-- Med Power PNP		BD140	TO6126	SyC electronica 	x2	
+- Med Power PNP		2SA1837	TO-220	Microelectronica 	x2	
 
 
 ### Diodo
@@ -30,9 +30,9 @@ En esta sección se detallan los componentes que se van a utilizar.
 
 ## Multiplicador de Vbe
 
-- Med Power NPN		BD139	TO-126	SyC electronica		x1
+- Med Power NPN		2SC4793	TO-220	Microelectronica	x1
 
-- Zener 3.3		D1N4728	DO-41	SyC electronica		x2
+- Zener 3.3		    D1N4728	DO-41	  SyC electronica		x2
 
 
 ---
@@ -50,9 +50,9 @@ En esta sección se detallan los componentes que se van a utilizar.
 
 ## VAS (Ganancia tensión)
 
-- NPN 0.5A		MPSA42 TO-92	SyC electroncia 	x1
+- Med Power NPN		2SC4793	TO-220	Microelectronica	x1
 
-- NPN 0.1A		BC846	SOT23	  Microelectronica	x2
+- NPN 0.1A		    BC846	  SOT23	  Microelectronica	x2
 
 
 ---
@@ -61,9 +61,12 @@ En esta sección se detallan los componentes que se van a utilizar.
 
 ### Q generales (complementarios)
 
-- PNP 0.1A		BC856	SOT23	Microelectronica	x5	
+- PNP 0.1A		    BC856	  SOT23	  Microelectronica	x5	
 
-- NPN 0.1A		BC846	SOT23	Microelectronica	x6	
+- NPN 0.1A		    BC846	  SOT23	  Microelectronica	x5
+
+- Med Power NPN		2SC4793	TO-220	Microelectronica	x1
+
 
 
 
