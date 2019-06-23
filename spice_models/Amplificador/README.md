@@ -14,6 +14,6 @@ Esta es la carpeta principal del diseño del amplificador de audio clase G de 50
 
 - [Diseño final:](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final) se incluye el circuito del diseo final con un vasto número de simulaciones y características del mismo.
 
-
+- [Ajuste de ganancia y Disipadores](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Ajustes_ganancia_alimentacion) se incluyen modificaciones para que el circuito pueda trabajar en tres modos, con alimentación del riel superior de 30v, 40v o 50v. Además están los cálculos para la elección de los disipadores.
 
 
