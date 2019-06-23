@@ -13,6 +13,8 @@ En la tabla siguiente se pueden ver varias características del amplificador par
 | R_FB [Ohm]  	| 53.74 	| 27.72 	| 10.6 	|
 | R_Vbe [Ohm] 	| 300   	| 300   	| 220  	|
 
+Para que el amplificador pueda trabajar en todas estas configuraciones hizo falta cambiar algunos transistores, sobre todo los drivers de la etapa de potencia y los transistores de la etapa VAS ya que cuando la tensión de alimentación superior es de 50v estos se encuentraban sobreexigidos en cuanto a la tensión colector-emisor que podian soportar. Es necesario utilizar transistores que soporten una alta tensión entre colector-emisor y colector-base.
+
 Se utilizaron dos potenciómetros para poder ajustar los valores del multiplicador de Vbe y de la ganancia del amplificador para cada caso de tensión de alimentación. En la tabla precedente se encuentran los valores del potenciómetro de ganancia para los tres casos. El realimentador se puede ver a continuación:
 
 
