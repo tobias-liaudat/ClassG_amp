@@ -14,7 +14,9 @@ En la tabla siguiente se pueden ver varias características del amplificador par
 Se utilizaron dos potenciómetros para poder ajustar los valores del multiplicador de Vbe y de la ganancia del amplificador para cada caso de tensión de alimentación.
 
 
-## Cálculo de disipadores
+## Disipadores
+
+### Potencias en los transistores
 
 Para el cálculo de disipadores vamos a cosiderar el caso más exigido, es decir cuando estamos trabajando con una VCC de 50v y a máxima potencia, 95W sobre la carga. 
 
@@ -30,6 +32,7 @@ Se utiliza el programa LTSpice que permite mediante los comandos *.meas* realiza
 | Q19 (2SC5200) [W]     	| 15.9 	|
 | Q14 (2SC4793) [W]     	| 1.15 	|
 | Q16 (2SC4793) [W]     	| 0.28 	|
+| Total [W]               | 44.83 |
 
 </td><td>
 
@@ -37,8 +40,9 @@ Se utiliza el programa LTSpice que permite mediante los comandos *.meas* realiza
 |-----------------------	|:-----:	|
 | Q21 (2SA1943) [W]     	| 25.65 	|
 | Q20 (2SA1943) [W]     	| 18.34 	|
-| Q15 (2SA1837) [W]     	|  1.36 	|
+| Q15 (2SA1837) [W]     	| 1.36 	  |
 | Q17 (2SA1837) [W]     	| 0.31  	|
+| Total [W]               | 45.6    |
 
 </td></tr> </table>
 
@@ -68,6 +72,17 @@ A continuación se presentan las características de las hojas de datos de los c
 | Tj_MAX [C] 	|   150   	|   150   	|   150   	| 150     	|
 | Rth_jc [C] 	|   0.84  	|   0.84  	|   6.25  	| 6.25    	|
 | Rth_cd [C] 	|    2    	|    2    	|    2    	| 2       	|
+
+En todos los casos consideramos que la resistencia térmica entre la capsula y el disipador (Rth_cd) tiene el mismo valor que es uno típico. 
+
+### Cálculo de disipadores
+
+Para calcular el valor de los disipadores y ver si es que realmente necesitamos de ellos vamos a tener que realizar los circuitos térmicos correspondientes. Se realizaran con cada transistor en paralelo como una fuente de corriente de potencia o una fuente de tensión de temperatura seguido por dos resistencias térmicas, Rth_jc (juntura-capsula) y Rth_cd (capsula-disipador). Luego, todas las potencias iran hacia el disipador donde se encuentren montados los transistores, que tendrá una única Rth_da (disipador-ambiente). Un caso simple con dos transistores montados sobre el mismo disipador se puede observar en la figura siguiente:
+
+Figura
+
+Dadas las potencias que estamos considerando y visto que no deseamos utilizar ventilación forzada vamos a utilizar dos disipadores, uno para la etapa superior de salida y otro para la etapa inferior. El transistor del multiplicador de Vbe tiene que estar acoplado termicamente a la etapa de salida superior. No es necesario utilizar disipadores para los transistores de la etapa VAS (amplificación de tensión.
+
 
 
 
