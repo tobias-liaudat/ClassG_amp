@@ -20,13 +20,40 @@ Para el cálculo de disipadores vamos a cosiderar el caso más exigido, es decir
 
 Se utiliza el programa LTSpice que permite mediante los comandos *.meas* realizar cálculos con los valores simulados. De esta manera podemos integrar en varios períodos, el producto corriente tensión para varios transistores trabajando a máxima potencia. La siguiente tabla resume los valores obtenidos:
 
-
+<table>
+<tr><th> Potencia salida NPN </th><th> Potencia salida PNP </th><th> VAS </th><th> Mult. Vbe </th></tr> 
+<tr><td>
+  
 | Pot. Etapa Salida sup 	|   P  	|
 |-----------------------	|:----:	|
 | Q18 (2SC5200) [W]     	| 27.5 	|
 | Q19 (2SC5200) [W]     	| 15.9 	|
 | Q14 (2SC4793) [W]     	| 1.15 	|
 | Q16 (2SC4793) [W]     	| 0.28 	|
+
+</td><td>
+
+| Pot. Etapa Salida inf 	|   P   	|
+|-----------------------	|:-----:	|
+| Q21 (2SA1943) [W]     	| 25.65 	|
+| Q20 (2SA1943) [W]     	| 18.34 	|
+| Q15 (2SA1837) [W]     	|  1.36 	|
+| Q17 (2SA1837) [W]     	| 0.31  	|
+
+</td><td>
+  
+| Pot. VAS          	|   P  	|
+|-------------------	|:----:	|
+| Q7 (2SA1837) [W]  	| 0.84 	|
+| Q11 (2SC4793) [W] 	| 0.79 	|
+
+</td><td>
+  
+| Pot. Mult Vbe    	|   P   	|
+|------------------	|:-----:	|
+| Q8 (2SC4793) [W] 	| 0.067 	|
+
+</td></tr> </table>
 
 
 A continuación se presentan las características de las hojas de datos de los componentes comprometidos con la disipación de potencia.
