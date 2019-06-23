@@ -21,7 +21,7 @@ Para el cálculo de disipadores vamos a cosiderar el caso más exigido, es decir
 Se utiliza el programa LTSpice que permite mediante los comandos *.meas* realizar cálculos con los valores simulados. De esta manera podemos integrar en varios períodos, el producto corriente tensión para varios transistores trabajando a máxima potencia. La siguiente tabla resume los valores obtenidos:
 
 <table>
-<tr><th> Potencia salida NPN </th><th> Potencia salida PNP </th><th> VAS </th><th> Mult. Vbe </th></tr> 
+<tr><th> Potencia salida NPN </th><th> Potencia salida PNP </th></tr> 
 <tr><td>
   
 | Pot. Etapa Salida sup 	|   P  	|
@@ -40,7 +40,12 @@ Se utiliza el programa LTSpice que permite mediante los comandos *.meas* realiza
 | Q15 (2SA1837) [W]     	|  1.36 	|
 | Q17 (2SA1837) [W]     	| 0.31  	|
 
-</td><td>
+</td></tr> </table>
+
+
+<table>
+<tr><th> VAS </th><th> Mult. Vbe </th></tr> 
+<tr><td>
   
 | Pot. VAS          	|   P  	|
 |-------------------	|:----:	|
