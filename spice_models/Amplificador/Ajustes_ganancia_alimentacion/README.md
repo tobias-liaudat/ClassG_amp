@@ -14,3 +14,31 @@ En la tabla siguiente se pueden ver varias características del amplificador par
 Se utilizaron dos potenciómetros para poder ajustar los valores del multiplicador de Vbe y de la ganancia del amplificador para cada caso de tensión de alimentación.
 
 
+## Cálculo de disipadores
+
+Para el cálculo de disipadores vamos a cosiderar el caso más exigido, es decir cuando estamos trabajando con una VCC de 50v y a máxima potencia, 95W sobre la carga. 
+
+Se utiliza el programa LTSpice que permite mediante los comandos *.meas* realizar cálculos con los valores simulados. De esta manera podemos integrar en varios períodos, el producto corriente tensión para varios transistores trabajando a máxima potencia. La siguiente tabla resume los valores obtenidos:
+
+
+| Pot. Etapa Salida sup 	|   P  	|
+|-----------------------	|:----:	|
+| Q18 (2SC5200) [W]     	| 27.5 	|
+| Q19 (2SC5200) [W]     	| 15.9 	|
+| Q14 (2SC4793) [W]     	| 1.15 	|
+| Q16 (2SC4793) [W]     	| 0.28 	|
+
+
+A continuación se presentan las características de las hojas de datos de los componentes comprometidos con la disipación de potencia.
+
+| Transistor 	| 2SC5200 	| 2SA1943 	| 2SC4793 	| 2SA1837 	|
+|------------	|:-------:	|:-------:	|:-------:	|---------	|
+| Tj_MAX [C] 	|   150   	|   150   	|   150   	| 150     	|
+| Rth_jc [C] 	|   0.84  	|   0.84  	|   6.25  	| 6.25    	|
+| Rth_cd [C] 	|    2    	|    2    	|    2    	| 2       	|
+
+
+
+
+
+
