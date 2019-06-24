@@ -261,7 +261,7 @@ L R R3
 U 1 1 5D0EABDB
 P 2650 5200
 F 0 "R3" V 2730 5200 50  0000 C CNN
-F 1 "1.2k" V 2650 5200 50  0000 C CNN
+F 1 "2.2k" V 2650 5200 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 5200 50  0001 C CNN
 F 3 "" H 2650 5200 50  0001 C CNN
 	1    2650 5200
@@ -272,7 +272,7 @@ L R R4
 U 1 1 5D0EAC40
 P 2650 5800
 F 0 "R4" V 2730 5800 50  0000 C CNN
-F 1 "1.2k" V 2650 5800 50  0000 C CNN
+F 1 "2.2k" V 2650 5800 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 2580 5800 50  0001 C CNN
 F 3 "" H 2650 5800 50  0001 C CNN
 	1    2650 5800
@@ -336,12 +336,12 @@ $EndComp
 $Comp
 L R R16
 U 1 1 5D0ECDFF
-P 5300 4050
-F 0 "R16" V 5380 4050 50  0000 C CNN
-F 1 "2.2k" V 5300 4050 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5230 4050 50  0001 C CNN
-F 3 "" H 5300 4050 50  0001 C CNN
-	1    5300 4050
+P 5450 4050
+F 0 "R16" V 5530 4050 50  0000 C CNN
+F 1 "2.2k" V 5450 4050 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5380 4050 50  0001 C CNN
+F 3 "" H 5450 4050 50  0001 C CNN
+	1    5450 4050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -369,23 +369,23 @@ $EndComp
 $Comp
 L C C2
 U 1 1 5D0ED312
-P 2200 5200
-F 0 "C2" H 2225 5300 50  0000 L CNN
-F 1 "0.3n" H 2225 5100 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 2238 5050 50  0001 C CNN
-F 3 "" H 2200 5200 50  0001 C CNN
-	1    2200 5200
+P 1900 5200
+F 0 "C2" H 1925 5300 50  0000 L CNN
+F 1 "0.3n" H 1925 5100 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 1938 5050 50  0001 C CNN
+F 3 "" H 1900 5200 50  0001 C CNN
+	1    1900 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R15
 U 1 1 5D0EDBB9
-P 5250 5450
-F 0 "R15" V 5330 5450 50  0000 C CNN
-F 1 "51" V 5250 5450 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5180 5450 50  0001 C CNN
-F 3 "" H 5250 5450 50  0001 C CNN
-	1    5250 5450
+P 5350 5450
+F 0 "R15" V 5430 5450 50  0000 C CNN
+F 1 "51" V 5350 5450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5280 5450 50  0001 C CNN
+F 3 "" H 5350 5450 50  0001 C CNN
+	1    5350 5450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -743,12 +743,12 @@ $EndComp
 $Comp
 L R R28
 U 1 1 5D0F9931
-P 8200 3550
-F 0 "R28" V 8280 3550 50  0000 C CNN
-F 1 "100" V 8200 3550 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8130 3550 50  0001 C CNN
-F 3 "" H 8200 3550 50  0001 C CNN
-	1    8200 3550
+P 8350 3550
+F 0 "R28" V 8430 3550 50  0000 C CNN
+F 1 "100" V 8350 3550 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 8280 3550 50  0001 C CNN
+F 3 "" H 8350 3550 50  0001 C CNN
+	1    8350 3550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -977,7 +977,7 @@ U 1 1 5D10B568
 P 12350 4900
 F 0 "L1" V 12300 4900 50  0000 C CNN
 F 1 "1u" V 12460 4900 50  0000 C CNN
-F 2 "Inductors_THT:L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" H 12350 4900 50  0001 C CNN
+F 2 "Inductors_THT:L_Axial_L20.0mm_D8.0mm_P25.40mm_Horizontal" H 12350 4900 50  0001 C CNN
 F 3 "" H 12350 4900 50  0001 C CNN
 	1    12350 4900
 	0    -1   -1   0   
@@ -1302,17 +1302,6 @@ F 3 "" H 3850 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP3
-U 1 1 5D142C6E
-P 5700 4450
-F 0 "JP3" H 5700 4530 50  0000 C CNN
-F 1 "Feedback_Jumper" H 5710 4390 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5700 4450 50  0001 C CNN
-F 3 "" H 5700 4450 50  0001 C CNN
-	1    5700 4450
-	0    1    1    0   
-$EndComp
-$Comp
 L Audio-Jack-2 X1
 U 1 1 5D143A67
 P 900 4050
@@ -1335,25 +1324,14 @@ F 3 "" H 1250 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper_NC_Small JP4
-U 1 1 5D14A424
-P 7600 6900
-F 0 "JP4" H 7600 6980 50  0000 C CNN
-F 1 "2nd_Stage_Jumper" H 7610 6840 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7600 6900 50  0001 C CNN
-F 3 "" H 7600 6900 50  0001 C CNN
-	1    7600 6900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L POT_TRIM PR2
 U 1 1 5D16D651
-P 5700 5450
-F 0 "PR2" V 5800 5350 50  0000 L CNN
-F 1 "100" V 5600 5425 50  0000 L CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Suntan_TSR-3386C_Vertical" V 5630 5450 50  0001 C CNN
-F 3 "" H 5700 5450 50  0001 C CNN
-	1    5700 5450
+P 5800 5450
+F 0 "PR2" V 5900 5350 50  0000 L CNN
+F 1 "100" V 5700 5425 50  0000 L CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Suntan_TSR-3386C_Vertical" V 5730 5450 50  0001 C CNN
+F 3 "" H 5800 5450 50  0001 C CNN
+	1    5800 5450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1484,7 +1462,7 @@ Connection ~ 12750 6750
 Connection ~ 11300 9350
 Connection ~ 2650 4050
 Wire Wire Line
-	5700 4050 5450 4050
+	5700 4050 5600 4050
 Wire Wire Line
 	14900 1800 15100 1800
 Wire Wire Line
@@ -1501,12 +1479,12 @@ Connection ~ 12750 2900
 Wire Wire Line
 	12950 5000 13050 5000
 Wire Wire Line
-	12950 5200 12950 5000
+	12950 4550 12950 5200
 Connection ~ 12700 4900
 Wire Wire Line
-	12700 5200 12700 4900
+	12700 4450 12700 5200
 Wire Wire Line
-	12500 5200 12700 5200
+	12700 5200 12500 5200
 Wire Wire Line
 	12500 4900 13050 4900
 Wire Wire Line
@@ -1581,9 +1559,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 3750 9500 4450
 Wire Wire Line
-	7600 3550 8050 3550
-Wire Wire Line
-	8350 3550 9200 3550
+	8500 3550 9200 3550
 Wire Wire Line
 	11300 4100 11300 4350
 Wire Wire Line
@@ -1668,8 +1644,6 @@ Wire Wire Line
 	8100 9350 8100 9200
 Connection ~ 7600 9350
 Connection ~ 7600 2150
-Wire Wire Line
-	8800 2150 7600 2150
 Connection ~ 4950 850 
 Wire Wire Line
 	4950 850  4950 1950
@@ -1722,8 +1696,6 @@ Wire Wire Line
 	7600 3350 7600 4350
 Connection ~ 7600 6200
 Wire Wire Line
-	7100 6200 8150 6200
-Wire Wire Line
 	7100 5850 7100 6200
 Wire Wire Line
 	7100 5400 7100 5550
@@ -1735,7 +1707,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4750 7600 6300
 Wire Wire Line
-	7600 6600 7600 6800
+	7600 6600 7600 8050
 Wire Wire Line
 	7150 7500 7150 7550
 Wire Wire Line
@@ -1792,30 +1764,30 @@ Wire Wire Line
 Wire Wire Line
 	6050 5450 6050 5650
 Wire Wire Line
-	5850 5450 6750 5450
-Connection ~ 5000 5450
-Connection ~ 5000 4050
+	5950 5450 6750 5450
+Connection ~ 5200 5450
+Connection ~ 5200 4050
 Wire Wire Line
-	5000 5450 5000 4050
+	5200 5450 5200 4050
 Wire Wire Line
-	4350 5450 5100 5450
+	4350 5450 5200 5450
 Wire Wire Line
 	3850 5450 4050 5450
 Connection ~ 2650 5450
 Wire Wire Line
-	3550 5450 2650 5450
+	2300 5450 3550 5450
 Connection ~ 2650 6050
 Wire Wire Line
-	2200 6050 2650 6050
+	1900 6050 2650 6050
 Wire Wire Line
-	2200 5350 2200 6050
+	1900 5350 1900 6050
 Connection ~ 2650 4850
 Wire Wire Line
-	2200 4850 2650 4850
+	1900 4850 2650 4850
 Wire Wire Line
-	2200 5050 2200 4850
+	1900 5050 1900 4850
 Wire Wire Line
-	4900 4050 5150 4050
+	5150 4050 5300 4050
 Wire Wire Line
 	1950 4050 2050 4050
 Wire Wire Line
@@ -1923,9 +1895,7 @@ Connection ~ 4600 5250
 Wire Wire Line
 	3400 7650 4300 7650
 Wire Wire Line
-	5700 4350 5700 4050
-Wire Wire Line
-	5700 4550 5700 4900
+	5700 4050 5700 4900
 Wire Wire Line
 	1100 4050 1650 4050
 Connection ~ 1300 4050
@@ -1937,21 +1907,17 @@ Wire Wire Line
 Wire Wire Line
 	1250 3400 1050 3400
 Wire Wire Line
-	7600 7000 7600 8050
-Wire Wire Line
 	9000 6650 10050 6650
 Wire Wire Line
 	10050 6650 10050 7700
 Wire Wire Line
 	10050 7700 10350 7700
-Wire Wire Line
-	8700 6650 7600 6650
 Connection ~ 7600 6650
 Wire Wire Line
 	7250 7150 7600 7150
 Connection ~ 7600 7150
 Wire Wire Line
-	5400 5450 5550 5450
+	5500 5450 5650 5450
 Wire Wire Line
 	8550 8900 8550 8700
 Connection ~ 8550 8700
@@ -1996,12 +1962,12 @@ Wire Wire Line
 	7300 5950 7100 5950
 Connection ~ 7100 5950
 Wire Wire Line
-	5700 5600 5700 5700
+	5800 5600 5800 5700
 Wire Wire Line
-	5700 5700 5500 5700
+	5800 5700 5600 5700
 Wire Wire Line
-	5500 5700 5500 5450
-Connection ~ 5500 5450
+	5600 5700 5600 5450
+Connection ~ 5600 5450
 Wire Wire Line
 	15100 1700 14400 1700
 Wire Wire Line
@@ -2010,4 +1976,124 @@ Wire Wire Line
 	2650 5950 2650 6100
 Wire Wire Line
 	9000 8700 9000 8800
+$Comp
+L Jumper_NC_Small JP7
+U 1 1 5D1CB98B
+P 8200 2150
+F 0 "JP7" H 8200 2230 50  0000 C CNN
+F 1 "High_Pos_Jumper" H 8210 2090 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8200 2150 50  0001 C CNN
+F 3 "" H 8200 2150 50  0001 C CNN
+	1    8200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2150 7600 2150
+Wire Wire Line
+	8300 2150 8800 2150
+$Comp
+L Jumper_NC_Small JP6
+U 1 1 5D1CC455
+P 8100 6650
+F 0 "JP6" H 8100 6730 50  0000 C CNN
+F 1 "High_Neg_Jumper" H 8110 6590 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 8100 6650 50  0001 C CNN
+F 3 "" H 8100 6650 50  0001 C CNN
+	1    8100 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP5
+U 1 1 5D1CC5B8
+P 7900 6200
+F 0 "JP5" H 7900 6280 50  0000 C CNN
+F 1 "Low_Neg_Jumper" H 7910 6140 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7900 6200 50  0001 C CNN
+F 3 "" H 7900 6200 50  0001 C CNN
+	1    7900 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NC_Small JP4
+U 1 1 5D1CC79D
+P 7900 3550
+F 0 "JP4" H 7900 3630 50  0000 C CNN
+F 1 "Low_Pos_Jumper" H 7910 3490 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7900 3550 50  0001 C CNN
+F 3 "" H 7900 3550 50  0001 C CNN
+	1    7900 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3550 7600 3550
+Wire Wire Line
+	8000 3550 8200 3550
+Wire Wire Line
+	7100 6200 7800 6200
+Wire Wire Line
+	8000 6200 8150 6200
+Wire Wire Line
+	8000 6650 7600 6650
+Wire Wire Line
+	8200 6650 8700 6650
+$Comp
+L Jumper_NC_Small JP3
+U 1 1 5D1CFB0E
+P 5050 4050
+F 0 "JP3" H 5050 4130 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5060 3990 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5050 4050 50  0001 C CNN
+F 3 "" H 5050 4050 50  0001 C CNN
+	1    5050 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4050 4900 4050
+$Comp
+L Conn_01x02 J4
+U 1 1 5D1D106E
+P 13250 4450
+F 0 "J4" H 13250 4550 50  0000 C CNN
+F 1 "CONN_OUT" H 13250 4250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 13250 4450 50  0001 C CNN
+F 3 "" H 13250 4450 50  0001 C CNN
+	1    13250 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 4450 12700 4450
+Wire Wire Line
+	13050 4550 12950 4550
+Connection ~ 12950 5000
+$Comp
+L R R34
+U 1 1 5D1D55CB
+P 2300 5200
+F 0 "R34" V 2380 5200 50  0000 C CNN
+F 1 "2.2k" V 2300 5200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2230 5200 50  0001 C CNN
+F 3 "" H 2300 5200 50  0001 C CNN
+	1    2300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R35
+U 1 1 5D1D57D8
+P 2300 5800
+F 0 "R35" V 2380 5800 50  0000 C CNN
+F 1 "2.2k" V 2300 5800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2230 5800 50  0001 C CNN
+F 3 "" H 2300 5800 50  0001 C CNN
+	1    2300 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5350 2300 5650
+Wire Wire Line
+	2300 4850 2300 5050
+Connection ~ 2300 4850
+Connection ~ 2300 5450
+Wire Wire Line
+	2300 5950 2300 6050
+Connection ~ 2300 6050
 $EndSCHEMATC
