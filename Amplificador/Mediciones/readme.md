@@ -91,12 +91,6 @@ La amplitud de entrada se fijó en 60mVp.
 </p>
 
 
-#### f = 10kHz
-
-<p align="center">
-  <img src="imgs/BW_10k.jpg?raw=true" width="500" title="hover text">
-</p>
-
 #### f = 20kHz
 
 <p align="center">
@@ -125,6 +119,13 @@ La amplitud de entrada se fijó en 60mVp.
 
 <p align="center">
   <img src="imgs/BW_200k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+
+#### f = 250kHz
+
+<p align="center">
+  <img src="imgs/BW_250k.jpg?raw=true" width="500" title="hover text">
 </p>
 
 
