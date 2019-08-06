@@ -162,6 +162,24 @@ Es muy importante que el transistor del multiplicador de Vbe esté con un buen a
 </p>
 
 
+## Disipador real
+
+Finalmente, se eligió y se compró el disipador **ZD-20** del distribuidor [Audio-Project](https://www.audio-project.com.ar/). Este disipador cuenta cun una Rth_da de **0.9℃/W** como se puede ver en esta [lista](https://www.disipadores.com/tabla_generica.php#) de características de disipadores. El precio total por disipador fue de $ARS 730.
+
+A continuación se puede ver una imagen de los disipadores:
+
+<p align="center">
+  <img src="../imagenes/disipadores_reales.png?raw=true" width="800" title="hover text">
+</p>
+
+
+Vale la pena mencionar que también agregamos disipadores pequeños a los transistores de la segunda etapa, la de amplificación de tensión. A pesar de que el cálculo de disipación nos da un resultado que afirma la no necesidad de utilizar disipadores, se agregaron dos que se reciclaron de otros circuitos como medida de seguridad ya que estos transistores se calentaban considerablemente en la práctica. Se los puede observar en la imagen del amplificador.
+
+
+<p align="center">
+  <img src="../imagenes/amp_classG.jpg?raw=true" width="800" title="hover text">
+</p>
+
 
 
 
