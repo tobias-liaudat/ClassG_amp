@@ -2,7 +2,11 @@
 
 ## Polarización
 
-pasar mediciones
+pasar mediciones en limpio
+
+<p align="center">
+  <img src="imgs/polarizacion.jpg?raw=true" width="1000" title="hover text">
+</p>
 
 
 ## Ganancia de Tensión
