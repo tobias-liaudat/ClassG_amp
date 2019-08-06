@@ -1,6 +1,7 @@
 # Diseño: Amplificador de Audio de Potencia Clase G
 
-Luego se incluiran las especificaciones de diseño a cumplir.
+El diseño incluye además, dos fuentes conmutadas.
+
 
 ---
 
