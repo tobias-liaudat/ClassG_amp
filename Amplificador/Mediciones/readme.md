@@ -68,5 +68,85 @@ La tensión a la entrada, medida con el multímetro true RMS es de: 0.720Vef.
 </p>
 
 
+## Ancho de banda
 
+Para esta medición se fijo una baja potencia y se fue elevando la frecuencia de la onda senoidal de excitación a la entrada. La idea es ver hasta que frecuencias se mantiene la ganancia de tensión y frenar una vez que esta cayó 3dB.
+
+La amplitud de entrada se fijó en 60mVp.
+
+- El ancho de banda medido fue desde los 2Hz hasta los 250kHz. 
+
+### Frecuencias altas
+
+#### f = 1kHz
+
+<p align="center">
+  <img src="imgs/BW_1k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 10kHz
+
+<p align="center">
+  <img src="imgs/BW_10k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+
+#### f = 10kHz
+
+<p align="center">
+  <img src="imgs/BW_10k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 20kHz
+
+<p align="center">
+  <img src="imgs/BW_20k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 50kHz
+
+<p align="center">
+  <img src="imgs/BW_50k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 100kHz
+
+<p align="center">
+  <img src="imgs/BW_100k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 150kHz
+
+<p align="center">
+  <img src="imgs/BW_150k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 200kHz
+
+<p align="center">
+  <img src="imgs/BW_200k.jpg?raw=true" width="500" title="hover text">
+</p>
+
+
+### Frecuencias bajas
+
+
+#### f = 100Hz
+
+<p align="center">
+  <img src="imgs/BW_100H.jpg?raw=true" width="500" title="hover text">
+</p>
+
+#### f = 10Hz
+
+<p align="center">
+  <img src="imgs/BW_10H.jpg?raw=true" width="500" title="hover text">
+</p>
+
+
+#### f = 2Hz
+
+<p align="center">
+  <img src="imgs/BW_2H.jpg?raw=true" width="500" title="hover text">
+</p>
 
