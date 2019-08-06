@@ -2,7 +2,17 @@
 
 ## Polarización
 
-pasar mediciones en limpio
+La polarización se puede ver en la imagen a continuación en donde se midió la tensión en varios puntos del circuito cuando este se encuentra funcionando sin señal a la entrada.
+
+En la siguiente tabla se pueden observar algunos valores importantes de la polarización del circuito:
+
+| Componentes                      	| Valores simulador 	| Valores medidos |
+|----------------------------------	|----------	          |----------	      |
+| Fuente corriente par diferencial 	| 5.7 mA   	          | **5.62mA**      |
+| Fuente corriente VAS             	| 18.2 mA  	          | **20.0mA**      |
+| Multiplicador Vbe                	| 2.63 V   	          | **2.00V**       |
+| Tensión salida                   	| 486 uV   	          | **8.0mV**       |
+
 
 <p align="center">
   <img src="imgs/polarizacion.jpg?raw=true" width="1000" title="hover text">
