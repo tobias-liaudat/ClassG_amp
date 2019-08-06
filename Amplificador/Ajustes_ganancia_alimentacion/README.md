@@ -169,7 +169,7 @@ Finalmente, se eligió y se compró el disipador **ZD-20** del distribuidor [Aud
 A continuación se puede ver una imagen de los disipadores:
 
 <p align="center">
-  <img src="../imagenes/disipador_reales.png?raw=true" width="600" title="hover text">
+  <img src="../imagenes/disipador_real.png?raw=true" width="600" title="hover text">
 </p>
 
 
