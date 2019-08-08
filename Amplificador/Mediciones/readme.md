@@ -188,6 +188,8 @@ Yendo más lejos, podemos graficar la potencia que entregan las fuentes y observ
 
 ## Total Harmonic Distortion : THD
 
+### THD con carga
+
 Para realizar esta medición se utilizó la placa de sonido de la computadora *PC157* del laboratorio y el programa [SpectraPlus v5](http://www.spectraplus.com/). Este programa permite utilizar la placa de sonido para generar señales senoidales de muy baja distorsión con uno de sus canales y a su vez realizar una FFT en tiempo real con la señal que ingresa en otro canal de la placa.
 
 Para realizar la medición se tuvo que construir una placa complementaría que funcionase como atenuador ya que la placa de sonido no puede recibir señales de grán amplitud. Esta placa estaba constituida de resistores, un potenciometro y jumpers que permitiesen realizar un ajuste grueso y fino de la atenuación requerida para que la señal entre en un nivel óptimo a la placa de sonido.
@@ -206,8 +208,17 @@ Por ejemplo, sin tomar en cuenta la medición a 100Hz, las dos potencias superio
   <img src="imgs/THD_frec.jpg?raw=true" width="1000" title="hover text">
 </p>
 
+#### Análisis
 
-#### THD sin carga
+Se agrega una captura de pantalla del programa en funcionamiento para una excitación de 1kHz y una potencia sobre la carga de 5.76W.
+
+
+<p align="center">
+  <img src="imgs/thd_1k-60mv.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+### THD sin carga
 
 En interesante observar que teniendo al amplificador sin carga, es decir, operando en vacio se alcanzan distorsiones considerablemente menores. Excitando a 1kHz se logro una **THD = 0.00479%**. Se puede ver en la siguiente captura la medición.
 
@@ -217,11 +228,6 @@ Es interesante observar la composición de armónicas en la transformada. Se pue
 <p align="center">
   <img src="imgs/THD_1k_140m_sinRL.png?raw=true" width="1000" title="hover text">
 </p>
-
-
-
-#### Análisis
-
 
 
 
