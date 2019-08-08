@@ -186,7 +186,7 @@ Yendo más lejos, podemos graficar la potencia que entregan las fuentes y observ
   <img src="imgs/potencia_de_fuentes.jpg?raw=true" width="1000" title="hover text">
 </p>
 
-## TOtal Harmonic Distorsion : THD
+## Total Harmonic Distortion : THD
 
 Para realizar esta medición se utilizó la placa de sonido de la computadora *PC157* del laboratorio y el programa [SpectraPlus v5](http://www.spectraplus.com/). Este programa permite utilizar la placa de sonido para generar señales senoidales de muy baja distorsión con uno de sus canales y a su vez realizar una FFT en tiempo real con la señal que ingresa en otro canal de la placa.
 
@@ -205,6 +205,24 @@ Por ejemplo, sin tomar en cuenta la medición a 100Hz, las dos potencias superio
 <p align="center">
   <img src="imgs/THD_frec.jpg?raw=true" width="1000" title="hover text">
 </p>
+
+
+
+
+
+
+## InterModulation Distortion : IMD
+
+Para realizar esta medición, se utilizó el mismo banco de medición que para la medición de la THD, utilizando el mismo programa, *SpectraPlus*. Para realizar esta medición se generan dos señales senoidales, una de 60Hz y otra de 7kHz con una relación de amplitud 4:1. En este caso, seguimos el estandar SMPTE RP120-1994 para el cálculo de IMD ([referencia](http://www.aes.org/par/i/#IM)).
+
+- La medición dió como resultado: **IMD = 0.0123%**
+
+Una captura del programa con la medición de IMD se puede ver en la siguiente imagen:
+
+<p align="center">
+  <img src="imgs/IMD_good_good.png?raw=true" width="1000" title="hover text">
+</p>
+
 
 
 
