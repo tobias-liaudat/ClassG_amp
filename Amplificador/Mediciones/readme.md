@@ -198,7 +198,9 @@ En el siguiente gráfico se puede ver como evoluciona la THD al ir aumentando la
   <img src="imgs/THD_a_1k.jpg?raw=true" width="1000" title="hover text">
 </p>
 
-En esta medición se midió la THD para varias frecuencias y a varias potencias. Es visible, el hecho de que a baja frecuencia, 100Hz, la THD aumente considerablemente. Sin embargo, para las frecuencias superiores, en todas las potencias la THD se mantiene en niveles bajos.
+En esta medición se midió la THD para varias frecuencias y a varias potencias. Es visible, el hecho de que a baja frecuencia, 100Hz, la THD aumente considerablemente. Sin embargo, para las frecuencias superiores, en todas las potencias la THD se mantiene en niveles bajos. 
+
+Por ejemplo, sin tomar en cuenta la medición a 100Hz, las dos potencias superiores presentad distorsiones debajo del nivel de 0.03% para todo el ancho de banda. Se añade que no se pudo medir la distorsión por niveles superiores a 10kHz, ya que es el límite de frecuencia de la señal senoidal de generación.
 
 <p align="center">
   <img src="imgs/THD_frec.jpg?raw=true" width="1000" title="hover text">
