@@ -50,6 +50,12 @@ abundan en el diseño). De igual manera, se tuvo en cuenta la tecnología de los
 
 Por último se incluyeron en el diseño esquemático las borneras de entrada y salida tanto de la fuente de alimentación como de la carga, pines para puentear y probar las distintas etapas del circuito por separado y un conector jack para la entrada de audio.
 
+
+<p align="center">
+  <img src="imgs/Ampli_clase_G.pdf?raw=true" width="1000" title="hover text">
+</p>
+
+
 ### Asociación de Footprints
 
 El segundo paso consiste en la asociación de los ‘footprint’ correspondientes a cada elemento del circuito. Para ello se tuvieron que dimensionar los componentes teniendo en cuenta la potencia máxima que deben soportar, la tensión de operación y la tecnología de fabricación a fin de tener una idea de la distancia entre pines de los resistores, capacitores e inductores del circuito. En el caso de los componentes activos este paso fue más sencillo ya que la hoja de datos del componente inmediatamente relaciona el código del componente con un encapsulado en particular. Por otro lado, los resistores SMD se eligieron para que tengan encapsulado 0608 de manera que no sean ni muy grandes ni muy chicos como para entorpecer el trabajo de soldado a mano.
@@ -85,3 +91,25 @@ Una vez realizado el ruteo de la placa se agregaron ciertos pasos finales:
 - Se agregaron los ‘footprint’ correspondientes a los disipadores de poder calcular donde insertar los agujeros para los tornillos de soporte de los disipadores.
 
 Como último paso se corrió la comprobación de errores del pcbNew a fin de detectar si había algun problema con las directivas de pads y pistas impuestas. Se comprobó que había dos pads que se encontraban demasiado cercanos a pistas aledañas. Se corrigió el error y se volvió a correr la comprobación de errores dando resultado satisfactorio.  Concluido el diseño de la placa se exportaron los archivos Gerber necesarios para la construcción.
+
+
+### Imagenes de la placa
+
+#### PCB atras
+
+<p align="center">
+  <img src="imgs/PCB_back.pdf?raw=true" width="1000" title="hover text">
+</p>
+
+#### PCB adelatne
+
+<p align="center">
+  <img src="imgs/PCB_f.pdf?raw=true" width="1000" title="hover text">
+</p>
+
+#### Realización del circuito
+
+<p align="center">
+  <img src="imgs/amp_classG.jpg?raw=true" width="1000" title="hover text">
+</p>
+
