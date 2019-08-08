@@ -210,7 +210,9 @@ Por ejemplo, sin tomar en cuenta la medición a 100Hz, las dos potencias superio
 
 #### Análisis
 
-Se agrega una captura de pantalla del programa en funcionamiento para una excitación de 1kHz y una potencia sobre la carga de 5.76W.
+Se agrega una captura de pantalla del programa en funcionamiento para una excitación de 1kHz y una potencia sobre la carga de 5.76W. La distorsión es de **THD = 0.02059**.
+
+Se puede observar la composición de armónicas de la distorsión. Se nota que la contribución de las componentes impares es mucho mayor que la de componentes pares. Esto nota de la buena simetría del circuito y de la utilidad de las realimentaciones locales introducidas un gran parte de los subcircuitos que ayudó a estabilizar parámetros. Luego, la contribución de las componentes impares puede dar nota de una no tan alta ganancia de lazo del circuito ya que se deben a la alinealidad del circuito. No obstate, la distorsión armónica es baja.
 
 
 <p align="center">
