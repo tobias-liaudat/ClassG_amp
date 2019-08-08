@@ -65,6 +65,19 @@ Por defecto pcbNew acomoda todos los componentes de la NetList en el centro del 
 
 Una vez realizado el placement de los componentes se pasó a la etapa de ruteo donde cada componente se unió con sus asociados por medio de pistas. El pcbNew fue configurado de tal manera que respete los tamaños mínimos de separación y de ancho del LCI. Para los anchos de pista se tuvo en cuenta la siguiente tabla:
 
+| Corriente máxima | Ancho mínimo de pista |
+|------------------|-----------------------|
+|		0.3 A	   |		10 mils		   |
+|       0.4 A      |        15 mils        |
+|       0.7 A      |        20 mils        |
+|       1.0 A      |     	25 mils        |
+|       2.0 A      |        50 mils        |
+|       4.0 A      |       100 mils        |
+|       6.0 A      |       150 mils        |
+|       8.0 A      |       200 mils        |
+|      10.0 A      |       250 mils        |
+|      16.0 A      |       400 mils        |
+
 ### Retoques finales
 
 Una vez realizado el ruteo de la placa se agregaron ciertos pasos finales:
