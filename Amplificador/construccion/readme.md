@@ -1,72 +1,71 @@
-ï»¿
-## Realización de la placa
+## RealizaciÃ³n de la placa
 
-Para la realización del diseño de la placa del amplificador se utilizó el programa de diseño KiCad en su versión 4.
-
- 
-
-Los postulados tenidos en cuenta a la hora de diseñar fueron:
-
-  - El material de la placa será FR4 - Doble Faz
-
-  - Una buena porción de los componentes de la placa debe ser de montaje superficial (SMD)
-
-  - La etapa diferencial debe estar de tal forma que las pistas pertenecientes a un mismo par circulen lo más paralelas posibles y los componentes de baja señal lo más cercanos que se pueden entre sí.
-
-  - Los componentes que disipan una gran cantidad de calor y de gran señal deben estar alejados de los componentes de baja señal para no influir sobre estos últimos. Asimismo, los componentes que necesiten acoplamiento térmicos deben estar ubicados sobre el mismo disipador.
-
-  - Las pistas de cobre deben ser adecuadas en relación con la intensidad de corriente que transportan siempre asegurando que las pistas sean invisibles al resto del circuito y no se comporten como componentes resistivos.
-
-  - Los pads y la corona de las pistas deben tener un tamaño acorde para el soldado a mano. De esta forma, las coronas de los pads deben ser de un tamaño mayor al que por defecto KiCad incorpora en alguno de sus footprints (salvo que el footprint diga 'Hand Soldering').
-
-  - Los pads de los componentes de gran señal que van atornillados a los disipadores deben soportar una tensión mecánica mayor y por tanto la corona del pad deberá ser acorde a las tensiones exigidas en el componente.
+Para la realizaciÃ³n del diseÃ±o de la placa del amplificador se utilizÃ³ el programa de diseÃ±o KiCad en su versiÃ³n 4.
 
  
 
-Por otro lado, la placa del amplificador se la realizó teniendo en cuenta los parámetros mínimos de diseño del LCI (Laboratorio de Circuitos Impresos) de la FIUBA:
+Los postulados tenidos en cuenta a la hora de diseÃ±ar fueron:
+
+  - El material de la placa serÃ¡ FR4 - Doble Faz
+
+  - Una buena porciÃ³n de los componentes de la placa debe ser de montaje superficial (SMD)
+
+  - La etapa diferencial debe estar de tal forma que las pistas pertenecientes a un mismo par circulen lo mÃ¡s paralelas posibles y los componentes de baja seÃ±al lo mÃ¡s cercanos que se pueden entre sÃ­.
+
+  - Los componentes que disipan una gran cantidad de calor y de gran seÃ±al deben estar alejados de los componentes de baja seÃ±al para no influir sobre estos Ãºltimos. Asimismo, los componentes que necesiten acoplamiento tÃ©rmicos deben estar ubicados sobre el mismo disipador.
+
+  - Las pistas de cobre deben ser adecuadas en relaciÃ³n con la intensidad de corriente que transportan siempre asegurando que las pistas sean invisibles al resto del circuito y no se comporten como componentes resistivos.
+
+  - Los pads y la corona de las pistas deben tener un tamaÃ±o acorde para el soldado a mano. De esta forma, las coronas de los pads deben ser de un tamaÃ±o mayor al que por defecto KiCad incorpora en alguno de sus footprints (salvo que el footprint diga 'Hand Soldering').
+
+  - Los pads de los componentes de gran seÃ±al que van atornillados a los disipadores deben soportar una tensiÃ³n mecÃ¡nica mayor y por tanto la corona del pad deberÃ¡ ser acorde a las tensiones exigidas en el componente.
+
+ 
+
+Por otro lado, la placa del amplificador se la realizÃ³ teniendo en cuenta los parÃ¡metros mÃ­nimos de diseÃ±o del LCI (Laboratorio de Circuitos Impresos) de la FIUBA:
 
  
 
 Pistas:
 
-(Tamaños mínimos)
+(TamaÃ±os mÃ­nimos)
 12 mils de ancho de pista.
-12 mils de separación entre pistas.
-12 mils de separación entre pads y pistas.
+12 mils de separaciÃ³n entre pistas.
+12 mils de separaciÃ³n entre pads y pistas.
 
-Diámetro del pad o vía = Diámetro del agujero + 24 mils.
+DiÃ¡metro del pad o vÃ­a = DiÃ¡metro del agujero + 24 mils.
 
-Agujeros. Los tamaños de mechas con los que cuenta el laboratorio son:
+Agujeros. Los tamaÃ±os de mechas con los que cuenta el laboratorio son:
 0,7 mm; 1 mm; 1,1 mm; 1,2 mm; 1,3 mm; 3 mm
  
-Observación:
-En el caso de trabajar con otro sistema de unidades y pasar al métrico por aproximación se recomienda redondear para abajo.
-Esto se debe a que el software utilizado para la automatización del proceso de agujereado de no encontrar el tamaño especificado toma el siguiente dentro de su lista.
+ObservaciÃ³n:
+En el caso de trabajar con otro sistema de unidades y pasar al mÃ©trico por aproximaciÃ³n se recomienda redondear para abajo.
+Esto se debe a que el software utilizado para la automatizaciÃ³n del proceso de agujereado de no encontrar el tamaÃ±o especificado toma el siguiente dentro de su lista.
 
-### Esquemático de la placa del amplificador
+### EsquemÃ¡tico de la placa del amplificador
 
-El primer paso en el diseño de la placa del amplificador fue copiar el esquemático de simulación del LTSpice al eeSchema del KiCad.
-En el esquemático del eeSchema se optimizaron los valores y cantidad de resistores de manera de unificar los valores de componentes lo mejor posible (por ejemplo un resistor de 1.1k puede ser pensado como dos resistores de 2.2k en paralelo si los resistores de 2.2k
-abundan en el diseño). De igual manera, se tuvo en cuenta la tecnología de los componentes en ciertos casos como en el de los capacitores electrolíticos de manera que se los asoció con capacitores cerámicos en paralelo para mejorar la respuesta en alta frecuencia ya que los capacitores de tecnología electrolítica tienen una frecuencia de autorresonancia mucho menor a la que presentan los capacitores cerámicos.
+El primer paso en el diseÃ±o de la placa del amplificador fue copiar el esquemÃ¡tico de simulaciÃ³n del LTSpice al eeSchema del KiCad.
+En el esquemÃ¡tico del eeSchema se optimizaron los valores y cantidad de resistores de manera de unificar los valores de componentes lo mejor posible (por ejemplo un resistor de 1.1k puede ser pensado como dos resistores de 2.2k en paralelo si los resistores de 2.2k
+abundan en el diseÃ±o). De igual manera, se tuvo en cuenta la tecnologÃ­a de los componentes en ciertos casos como en el de los capacitores electrolÃ­ticos de manera que se los asociÃ³ con capacitores cerÃ¡micos en paralelo para mejorar la respuesta en alta frecuencia ya que los capacitores de tecnologÃ­a electrolÃ­tica tienen una frecuencia de autorresonancia mucho menor a la que presentan los capacitores cerÃ¡micos.
 
-Por último se incluyeron en el diseño esquemático las borneras de entrada y salida tanto de la fuente de alimentación como de la carga, pines para puentear y probar las distintas etapas del circuito por separado y un conector jack para la entrada de audio.
+Por Ãºltimo se incluyeron en el diseÃ±o esquemÃ¡tico las borneras de entrada y salida tanto de la fuente de alimentaciÃ³n como de la carga, pines para puentear y probar las distintas etapas del circuito por separado y un conector jack para la entrada de audio.
 
-### Asociación de Footprints
+### AsociaciÃ³n de Footprints
 
-El segundo paso consiste en la asociación de los ‘footprint’ correspondientes a cada elemento del circuito. Para ello se tuvieron que dimensionar los componentes teniendo en cuenta la potencia máxima que deben soportar, la tensión de operación y la tecnología de fabricación a fin de tener una idea de la distancia entre pines de los resistores, capacitores e inductores del circuito. En el caso de los componentes activos este paso fue más sencillo ya que la hoja de datos del componente inmediatamente relaciona el código del componente con un encapsulado en particular. Por otro lado, los resistores SMD se eligieron para que tengan encapsulado 0608 de manera que no sean ni muy grandes ni muy chicos como para entorpecer el trabajo de soldado a mano.
+El segundo paso consiste en la asociaciÃ³n de los â€˜footprintâ€™ correspondientes a cada elemento del circuito. Para ello se tuvieron que dimensionar los componentes teniendo en cuenta la potencia mÃ¡xima que deben soportar, la tensiÃ³n de operaciÃ³n y la tecnologÃ­a de fabricaciÃ³n a fin de tener una idea de la distancia entre pines de los resistores, capacitores e inductores del circuito. En el caso de los componentes activos este paso fue mÃ¡s sencillo ya que la hoja de datos del componente inmediatamente relaciona el cÃ³digo del componente con un encapsulado en particular. Por otro lado, los resistores SMD se eligieron para que tengan encapsulado 0608 de manera que no sean ni muy grandes ni muy chicos como para entorpecer el trabajo de soldado a mano.
 
-Los footprints asociados fueron asociados una vez comprados los componentes en base a los valores de distancia entre pines (pitch), cuerpo (‘body’) y ancho (‘width’) de los componentes conseguidos.
+Los footprints asociados fueron asociados una vez comprados los componentes en base a los valores de distancia entre pines (pitch), cuerpo (â€˜bodyâ€™) y ancho (â€˜widthâ€™) de los componentes conseguidos.
 
 ### Placement de componentes
 
-Una vez realizada la asociación de footprints de los componentes, se realizó desde el eeSchema la exportación de la NetList y la importación de la misma en el pcbNew.
-Por defecto pcbNew acomoda todos los componentes de la NetList en el centro del dibujo, todos superpuestos con todos por lo manualmente se acomodaron todos los componentes en posiciones ‘a priori’ sobre la placa teniendo en cuenta que se produjeran los mínimos cruces posibles entre conexiones y separando de una manera coherente las diferentes etapas del amplificador en base a los postulados expuestos anteriormente.
+Una vez realizada la asociaciÃ³n de footprints de los componentes, se realizÃ³ desde el eeSchema la exportaciÃ³n de la NetList y la importaciÃ³n de la misma en el pcbNew.
+Por defecto pcbNew acomoda todos los componentes de la NetList en el centro del dibujo, todos superpuestos con todos por lo manualmente se acomodaron todos los componentes en posiciones â€˜a prioriâ€™ sobre la placa teniendo en cuenta que se produjeran los mÃ­nimos cruces posibles entre conexiones y separando de una manera coherente las diferentes etapas del amplificador en base a los postulados expuestos anteriormente.
 
 ### Ruteo de la placa
 
-Una vez realizado el placement de los componentes se pasó a la etapa de ruteo donde cada componente se unió con sus asociados por medio de pistas. El pcbNew fue configurado de tal manera que respete los tamaños mínimos de separación y de ancho del LCI. Para los anchos de pista se tuvo en cuenta la siguiente tabla:
+Una vez realizado el placement de los componentes se pasÃ³ a la etapa de ruteo donde cada componente se uniÃ³ con sus asociados por medio de pistas. El pcbNew fue configurado de tal manera que respete los tamaÃ±os mÃ­nimos de separaciÃ³n y de ancho del LCI. Para los anchos de pista se tuvo en cuenta la siguiente tabla:
 
-| Corriente máxima | Ancho mínimo de pista |
+| Corriente mÃ¡xima | Ancho mÃ­nimo de pista |
 |------------------|-----------------------|
 |		0.3 A	   |		10 mils		   |
 |       0.4 A      |        15 mils        |
@@ -83,6 +82,6 @@ Una vez realizado el placement de los componentes se pasó a la etapa de ruteo do
 
 Una vez realizado el ruteo de la placa se agregaron ciertos pasos finales:
 - Se agregaron los agujeros correspondientes a los soportes de placa en cada una de la esquinas.
-- Se agregaron los ‘footprint’ correspondientes a los disipadores de poder calcular donde insertar los agujeros para los tornillos de soporte de los disipadores.
+- Se agregaron los â€˜footprintâ€™ correspondientes a los disipadores de poder calcular donde insertar los agujeros para los tornillos de soporte de los disipadores.
 
-Como último paso se corrió la comprobación de errores del pcbNew a fin de detectar si había algun problema con las directivas de pads y pistas impuestas. Se comprobó que había dos pads que se encontraban demasiado cercanos a pistas aledañas. Se corrigió el error y se volvió a correr la comprobación de errores dando resultado satisfactorio.  Concluido el diseño de la placa se exportaron los archivos Gerber necesarios para la construcción.
+Como Ãºltimo paso se corriÃ³ la comprobaciÃ³n de errores del pcbNew a fin de detectar si habÃ­a algun problema con las directivas de pads y pistas impuestas. Se comprobÃ³ que habÃ­a dos pads que se encontraban demasiado cercanos a pistas aledaÃ±as. Se corrigiÃ³ el error y se volviÃ³ a correr la comprobaciÃ³n de errores dando resultado satisfactorio.  Concluido el diseÃ±o de la placa se exportaron los archivos Gerber necesarios para la construcciÃ³n.
