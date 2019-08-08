@@ -196,6 +196,8 @@ Para realizar la medición se tuvo que construir una placa complementaría que f
 
 En el siguiente gráfico se puede ver como evoluciona la THD al ir aumentando la potencia sobre la carga, siempre a 1kHz. Se estima que la THD a muy baja potencia es alta ya que la señal de entrada deja de ser de tan buena calidad.
 
+Un aspecto a tener en cuenta es la buena transición entre las fuentes inferiores y las fuentes superiores. Se puede ver en el siguiente gráfico que la THD no cambia significativamente de valor al aumentar la potencia y utilizar ambas fuentes de alimentación.
+
 <p align="center">
   <img src="imgs/THD_a_1k.jpg?raw=true" width="1000" title="hover text">
 </p>
