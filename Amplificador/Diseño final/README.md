@@ -154,7 +154,7 @@ Se calculó la eficiencia para diferentes valores de potencia. Luego se graficar
 | Eficiencia      	| 0.359 	| 0.372 	| 0.392 	| 0.424 	| 0.457 	| 0.518 	| 0.573 	|
 
 <p align="center">
-  <img src="../imagenes/eficiencia_def.png?raw=true" width="1000" title="hover text">
+  <img src="../imagenes/eficiencia_def.jpg?raw=true" width="1000" title="hover text">
 </p>
 
 - *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Eficiencia).*
