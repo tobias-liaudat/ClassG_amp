@@ -186,7 +186,24 @@ Yendo más lejos, podemos graficar la potencia que entregan las fuentes y observ
   <img src="imgs/potencia_de_fuentes.jpg?raw=true" width="1000" title="hover text">
 </p>
 
+## TOtal Harmonic Distorsion : THD
 
+Para realizar esta medición se utilizó la placa de sonido de la computadora *PC157* del laboratorio y el programa [SpectraPlus v5](http://www.spectraplus.com/). Este programa permite utilizar la placa de sonido para generar señales senoidales de muy baja distorsión con uno de sus canales y a su vez realizar una FFT en tiempo real con la señal que ingresa en otro canal de la placa.
+
+Para realizar la medición se tuvo que construir una placa complementaría que funcionase como atenuador ya que la placa de sonido no puede recibir señales de grán amplitud. Esta placa estaba constituida de resistores, un potenciometro y jumpers que permitiesen realizar un ajuste grueso y fino de la atenuación requerida para que la señal entre en un nivel óptimo a la placa de sonido.
+
+
+
+<p align="center">
+  <img src="imgs/THD_1k.jpg?raw=true" width="1000" title="hover text">
+</p>
+
+
+
+
+<p align="center">
+  <img src="imgs/THD_frec.jpg?raw=true" width="1000" title="hover text">
+</p>
 
 
 
