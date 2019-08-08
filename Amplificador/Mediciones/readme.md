@@ -102,7 +102,7 @@ Finalmente, se puede observar en el siguiente gráfico el ancho de banda del amp
 Para ver las imágenes de las mediciones se puede seguir el siguiente [enlace](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones/ancho_de_banda).
 
 <p align="center">
-  <img src="imgs/ancho_banda.jpg?raw=true" width="1000" title="hover text">
+  <img src="imgs/ancho_de_banda.jpg?raw=true" width="1000" title="hover text">
 </p>
 
 ## Slew rate
