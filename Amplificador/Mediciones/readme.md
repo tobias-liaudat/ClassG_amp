@@ -183,7 +183,7 @@ En el gráfico siguiente se puede observar el pico característico del amplifica
 Yendo más lejos, podemos graficar la potencia que entregan las fuentes y observar varios detalles. Para potencias bajas las fuentes de tensión altas (de 30v) tienen una potencia constante que es la requerida para la polarización del circuito. Luego, a partir de los 7W se llega a la máxima potencia que entregan las fuentes de tensión bajas (de 15v) para que se empiece a entregar mas potencia de las fuentes superiores.
 
 <p align="center">
-  <img src="imgs/potencia_fuentes.jpg?raw=true" width="1000" title="hover text">
+  <img src="imgs/potencia_de_fuentes.jpg?raw=true" width="1000" title="hover text">
 </p>
 
 
