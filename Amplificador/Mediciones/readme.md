@@ -90,78 +90,10 @@ La amplitud de entrada se fijó en 60mVp.
 
 - El ancho de banda medido fue desde los 2Hz hasta los 250kHz. 
 
-### Frecuencias altas
+Finalmente, se puede observar en el siguiente gráfico el ancho de banda del amplificador, el mismo va desde los **2 Hz** hasta los **150kHz**.
 
-#### f = 1kHz
-
-<p align="center">
-  <img src="imgs/BW_1k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-#### f = 10kHz
+Para ver las imágenes de las mediciones se puede seguir el siguiente [enlace](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones/ancho_de_banda).
 
 <p align="center">
-  <img src="imgs/BW_10k.jpg?raw=true" width="500" title="hover text">
+  <img src="imgs/ancho_banda.jpg?raw=true" width="1000" title="hover text">
 </p>
-
-
-#### f = 20kHz
-
-<p align="center">
-  <img src="imgs/BW_20k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-#### f = 50kHz
-
-<p align="center">
-  <img src="imgs/BW_50k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-#### f = 100kHz
-
-<p align="center">
-  <img src="imgs/BW_100k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-#### f = 150kHz
-
-<p align="center">
-  <img src="imgs/BW_150k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-#### f = 200kHz
-
-<p align="center">
-  <img src="imgs/BW_200k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-
-#### f = 250kHz
-
-<p align="center">
-  <img src="imgs/BW_250k.jpg?raw=true" width="500" title="hover text">
-</p>
-
-
-### Frecuencias bajas
-
-
-#### f = 100Hz
-
-<p align="center">
-  <img src="imgs/BW_100H.jpg?raw=true" width="500" title="hover text">
-</p>
-
-#### f = 10Hz
-
-<p align="center">
-  <img src="imgs/BW_10H.jpg?raw=true" width="500" title="hover text">
-</p>
-
-
-#### f = 2Hz
-
-<p align="center">
-  <img src="imgs/BW_2H.jpg?raw=true" width="500" title="hover text">
-</p>
-
