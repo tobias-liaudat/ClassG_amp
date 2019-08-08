@@ -98,18 +98,18 @@ Como último paso se corrió la comprobación de errores del pcbNew a fin de det
 #### PCB atras
 
 <p align="center">
-  <img src="imgs/PCB_back.png?raw=true" width="1000" title="hover text">
+  <img src="imgs/PCB_back.png?raw=true" width="800" title="hover text">
 </p>
 
 #### PCB adelatne
 
 <p align="center">
-  <img src="imgs/PCB_f.png?raw=true" width="1000" title="hover text">
+  <img src="imgs/PCB_f.png?raw=true" width="800" title="hover text">
 </p>
 
 #### Realización del circuito
 
 <p align="center">
-  <img src="amp_classG.jpg?raw=true" width="1000" title="hover text">
+  <img src="imgs/amp_classG.jpg?raw=true" width="800" title="hover text">
 </p>
 
