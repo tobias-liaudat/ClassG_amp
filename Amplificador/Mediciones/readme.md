@@ -117,7 +117,7 @@ Para realizar esta medición se excito el amplificador con una onda cuadrada de 
 
 - SR = Delta_V / Delta_T = 38.4V / 1.9us = 20.21 V/us
 
-- **SR = 20.21 V/us**
+**SR = 20.21 V/us**
 
 
 <p align="center">
@@ -139,7 +139,29 @@ Para realizar el cálculo de impedancia de entrada se intercaló en serie con la
 
 - La impedancia de entrada se calcula: Rin = V_in / I_in = 0.1273Vef / 10.5uAef = 12.12kOHm
 
-- Impedancia de entrada: **Rin = 12.12 kOhm**
+Impedancia de entrada: **Rin = 12.12 kOhm**
+
+
+## Impedancia de salida
+
+Esta medición no es simple ya que es dificil medir una impedancia de un valor tan bajo como la impedancia de salida para un amplificador de este tipo.
+
+El procedimiento consiste en utilizar un multímetro de precisión para medir la tensión a la salida del amplificador a máxima potencia funcionando con la carga y en vacio.
+
+- Tensión de salida en vacio: Vo_vacio = 12.734Vef
+
+- Tensión de salida con carga: Vo_carga = 12.644Vef
+
+- Impedancia de la carga: RL = 8.4 Ohms
+
+Luego podemos calcular la impedancia de salida con la siguiente fórmula:
+
+- Ro = RL (Vo_vacio / Vo_carga - 1) = 8.4Ohm (12.734Vef / 12.644Vef - 1) = 0.0598 Ohm
+
+Impedancia de salida: **Ro = 59.8 mOhm**
+
+
+
 
 
 
