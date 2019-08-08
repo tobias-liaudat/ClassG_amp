@@ -192,14 +192,13 @@ Para realizar esta medición se utilizó la placa de sonido de la computadora *P
 
 Para realizar la medición se tuvo que construir una placa complementaría que funcionase como atenuador ya que la placa de sonido no puede recibir señales de grán amplitud. Esta placa estaba constituida de resistores, un potenciometro y jumpers que permitiesen realizar un ajuste grueso y fino de la atenuación requerida para que la señal entre en un nivel óptimo a la placa de sonido.
 
-
+En el siguiente gráfico se puede ver como evoluciona la THD al ir aumentando la potencia sobre la carga, siempre a 1kHz. Se estima que la THD a muy baja potencia es alta ya que la señal de entrada deja de ser de tan buena calidad.
 
 <p align="center">
-  <img src="imgs/THD_1k.jpg?raw=true" width="1000" title="hover text">
+  <img src="imgs/THD_a_1k.jpg?raw=true" width="1000" title="hover text">
 </p>
 
-
-
+En esta medición se midió la THD para varias frecuencias y a varias potencias. Es visible, el hecho de que a baja frecuencia, 100Hz, la THD aumente considerablemente. Sin embargo, para las frecuencias superiores, en todas las potencias la THD se mantiene en niveles bajos.
 
 <p align="center">
   <img src="imgs/THD_frec.jpg?raw=true" width="1000" title="hover text">
