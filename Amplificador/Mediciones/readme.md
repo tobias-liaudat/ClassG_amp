@@ -170,4 +170,24 @@ El factor de amortiguamiento puede calcularse a partir de losl valores obtenidos
 Factor de amortiguamiento: **FA = 140.5**
 
 
+## Eficiencia
+
+Se midió la eficiencia del amplificador midiendo la potencia que entrega cada una de las fuentes y la potencia que se le entrega la carga. Para realizar la medición se fue aumentando la amplitud de la tensión a la entrada del amplificador y para cada paso se medían las corrientes de las fuentes como también sus tensiones y la tensión desarrollada sobre la carga. Al tener la tensión sobre la carga y el valor de la carga se puede deducir su potencia.
+
+En el gráfico siguiente se puede observar el pico característico del amplificador clase G que muestra a que potencia el amplificador empieza a tomar corriente de las fuentes superiores.
+
+<p align="center">
+  <img src="imgs/eficiencia_medicion.jpg?raw=true" width="1000" title="hover text">
+</p>
+
+Yendo más lejos, podemos graficar la potencia que entregan las fuentes y observar varios detalles. Para potencias bajas las fuentes de tensión altas (de 30v) tienen una potencia constante que es la requerida para la polarización del circuito. Luego, a partir de los 7W se llega a la máxima potencia que entregan las fuentes de tensión bajas (de 15v) para que se empiece a entregar mas potencia de las fuentes superiores.
+
+<p align="center">
+  <img src="imgs/potencia_fuentes.jpg?raw=true" width="1000" title="hover text">
+</p>
+
+
+
+
+
 
