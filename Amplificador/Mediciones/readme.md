@@ -146,7 +146,7 @@ Impedancia de entrada: **Rin = 12.12 kOhm**
 
 Esta medición no es simple ya que es dificil medir una impedancia de un valor tan bajo como la impedancia de salida para un amplificador de este tipo.
 
-El procedimiento consiste en utilizar un multímetro de precisión para medir la tensión a la salida del amplificador a máxima potencia funcionando con la carga y en vacio.
+El procedimiento consiste en utilizar un multímetro de precisión para medir la tensión a la salida del amplificador a máxima potencia funcionando con la carga y en vacio. La frecuencia de excitación senoidal fue de 1kHz.
 
 - Tensión de salida en vacio: Vo_vacio = 12.734Vef
 
@@ -161,7 +161,13 @@ Luego podemos calcular la impedancia de salida con la siguiente fórmula:
 Impedancia de salida: **Ro = 59.8 mOhm**
 
 
+## Factor de amortiguamiento
 
+El factor de amortiguamiento puede calcularse a partir de losl valores obtenidos en la medición previa:
+
+- FA = RL / Ro = 8.4Ohm / 59.8mOhm = 140.5
+
+Factor de amortiguamiento: **FA = 140.5**
 
 
 
