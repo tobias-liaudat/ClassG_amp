@@ -125,6 +125,21 @@ Para realizar esta medición se excito el amplificador con una onda cuadrada de 
 </p>
 
 
+## Impedancia de entrada 
+
+Para realizar el cálculo de impedancia de entrada se intercaló en serie con la entrada del amplificador un resistor de un valor conocido y se midió la caida de tensión sobre este resistor para poder calcular la corriente que ingresa del amplificador. Luego, se midió la tensión de entrada con un multímetro. La señal de excitación de entrada es de 1kHz, y el multímetro es True-RMS.
+
+- El resistor se midió y Rtest = 3.79kOhms.
+
+- La caida de tensión en el resistor de prueba es DeltaV_Rtest = 0.0398Vef
+
+- Se puede calcular la corriente: I_in = DeltaV_Rtest / Rtest = 0.0398Vef / 3.79kOhms = 10.5 uAef
+
+- La tensión a la entrada del amplificador es de V_in = 0.1273Vef
+
+- La impedancia de entrada se calcula: Rin = V_in / I_in = 0.1273Vef / 10.5uAef = 12.12kOHm
+
+- Impedancia de entrada: **Rin = 12.12 kOhm**
 
 
 
