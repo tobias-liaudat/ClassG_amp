@@ -249,5 +249,44 @@ Una captura del programa con la medición de IMD se puede ver en la siguiente im
 
 
 
+## Temperatura
+
+Para la medición de temperatura se utilizó la termocupla del multímetro del fabricante *Pro'sKit* modelo *MT-1707*. Se excito al circuito con dos señales distintas, una senoidal y una cuadrada, ambas de frecuencia 1kHz. Se trabajó a máxima potencia y se espero un tiempo para que se estabilizaran las temperaturas. Sin embargo, este tiempo no pudo ser demasiado prolongado ya que la temperatura desarrollada en la carga era tal que quemaba las distintas superficies en donde se la dejaba.
+
+
+### Onda Senoidal
+
+
+| Transistor 	| T encapsulado [C] 	| T disipador [C] 	|
+|:----------:	|:-----------------:	|:---------------:	|
+|     Q21    	|         26        	|        25       	|
+|     Q20    	|         26        	|        25       	|
+|     Q19    	|         26        	|        25       	|
+|     Q18    	|         28        	|        26       	|
+|     Q7     	|         30        	|        28       	|
+|     Q11    	|         30        	|        28       	|
+|     R40    	|         29        	|        -        	|
+|     R37    	|         30        	|        -        	|
+
+
+### Onda Cuadrada
+
+
+| Transistor 	| T encapsulado [C] 	| T disipador [C] 	|
+|:----------:	|:-----------------:	|:---------------:	|
+|     Q21    	|         27        	|        26       	|
+|     Q20    	|         27        	|        26       	|
+|     Q19    	|         30        	|        28       	|
+|     Q18    	|         33        	|        28       	|
+|     Q7     	|         34        	|        32       	|
+|     Q11    	|         31        	|        31       	|
+|     R40    	|         35        	|        -        	|
+|     R37    	|         37        	|        -        	|
+
+
+
+
+
+
 
 
