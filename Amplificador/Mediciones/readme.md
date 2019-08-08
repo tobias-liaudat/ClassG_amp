@@ -104,3 +104,27 @@ Para ver las imágenes de las mediciones se puede seguir el siguiente [enlace](h
 <p align="center">
   <img src="imgs/ancho_banda.jpg?raw=true" width="1000" title="hover text">
 </p>
+
+## Slew rate
+
+Para realizar esta medición se excito el amplificador con una onda cuadrada de 2.4Vpp de amplitud, es decir con una cuadrada a máxima potencia, y de 10kHz. Con el osciloscopio se midió la tensión de salida del amplificador con la carga conectada. Para calcular el *slew rate* vamos a ver el tiempo que le lleva a la señal ir desde el 10% hasta el 90% del valor final.
+
+- Vlow = -23V & Vhigh = 25V  -->  V_10 = -18.2V & V_90 = 20.2V
+
+- Delta_V = 38.4V
+
+- Delta_T = 1.9us
+
+- SR = Delta_V / Delta_T = 38.4V / 1.9us = 20.21 V/us
+
+- **SR = 20.21 V/us**
+
+
+<p align="center">
+  <img src="imgs/slew_rate.jpg?raw=true" width="500" title="hover text">
+</p>
+
+
+
+
+
