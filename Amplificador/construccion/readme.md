@@ -1,4 +1,5 @@
-ï»¿## Realización de la placa
+ï»¿
+## Realización de la placa
 
 Para la realización del diseño de la placa del amplificador se utilizó el programa de diseño KiCad en su versión 4.
 
