@@ -46,7 +46,7 @@ Se ajusto la señal de entrada un valor de alta potencia y luego a uno de baja y
 
 ## Sensibilidad
 
-La tensión a la entrada, medida con el multímetro true RMS es de: 0.720Vef.
+La tensión a la entrada, medida con el multímetro true RMS es de: 0.720Vef que es aproximadamente 1.02Vp. La tensión de salida es de 24Vp.
 
 <p align="center">
   <img src="imgs/sensibilidad.jpg?raw=true" width="500" title="hover text">
