@@ -25,7 +25,11 @@ Se ajusto la señal de entrada un valor de alta potencia y luego a uno de baja y
 
 #### Ganancia de tensión con alta potencia 
 
-- Medicion de entrada con multímetro (true RMS): 0.593Vef
+- Medicion de entrada con multímetro (true RMS): 0.593Vef (aprox 0.84Vp)
+
+- Medición de tensión de salida en el osciloscopio: 21Vp
+
+- Ganancia de tensión @ 27.6W : 25 (27.96dB)
 
 <p align="center">
   <img src="imgs/ganancia_tension_alta.jpg?raw=true" width="500" title="hover text">
@@ -35,8 +39,11 @@ Se ajusto la señal de entrada un valor de alta potencia y luego a uno de baja y
 
 #### Ganancia de tensión con baja potencia 
 
-- Medicion de entrada con multímetro (true RMS): 0.073Vef
+- Medicion de entrada con multímetro (true RMS): 0.073Vef (aprox 0.103Vp)
 
+- Medición de tensión de salida en el osciloscopio: 2.4Vp
+
+- Ganancia de tensión @ 0.36W : 23.3 (27.35dB)
 
 <p align="center">
   <img src="imgs/ganancia_tension_baja.jpg?raw=true" width="500" title="hover text">
@@ -90,7 +97,7 @@ La amplitud de entrada se fijó en 60mVp.
 
 - El ancho de banda medido fue desde los 2Hz hasta los 250kHz. 
 
-Finalmente, se puede observar en el siguiente gráfico el ancho de banda del amplificador, el mismo va desde los **2 Hz** hasta los **150kHz**.
+Finalmente, se puede observar en el siguiente gráfico el ancho de banda del amplificador, el mismo va desde los **2 Hz** hasta los **250kHz**. Lo cual es considerablemente grande. Vale la pena destacar que a pesar de que la ganancia se mantiene hasta frecuencias altas, la forma de onda tiene distorsiones notables a simple vista.
 
 Para ver las imágenes de las mediciones se puede seguir el siguiente [enlace](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones/ancho_de_banda).
 
