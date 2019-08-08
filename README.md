@@ -2,12 +2,15 @@
 
 El diseño incluye además, dos fuentes conmutadas.
 
-
 ---
 
 Integrantes:
 - Tobias Ignacio Liaudat
 - Federico Muñoz Macia
+
+---
+
+Atajos: [Mediciones](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones)
 
 ---
 
