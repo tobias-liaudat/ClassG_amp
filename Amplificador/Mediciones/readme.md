@@ -207,6 +207,20 @@ Por ejemplo, sin tomar en cuenta la medición a 100Hz, las dos potencias superio
 </p>
 
 
+#### THD sin carga
+
+En interesante observar que teniendo al amplificador sin carga, es decir, operando en vacio se alcanzan distorsiones considerablemente menores. Excitando a 1kHz se logro una **THD = 0.00479%**. Se puede ver en la siguiente captura la medición.
+
+Es interesante observar la composición de armónicas en la transformada. Se puede observar que la amplitud de las armónicas pares es muy bajo, indicando que la simetría del circuito es muy buena. La contribución a la distorsión armónica es principalmente por parte de armónicas impares, dando a notar la alinealidad del circuito. Esto puede ser generado por una ganancia de lazo abierto no tan grande. Sin embargo, la distorsión armónica logra ser muy baja.
+
+
+<p align="center">
+  <img src="imgs/THD_1k_140m_sinRL.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+
+#### Análisis
 
 
 
