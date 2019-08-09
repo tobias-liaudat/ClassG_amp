@@ -1,1 +1,0 @@
-La carpeta eigene hay que agregarla tal como esta a la carpeta /sub del LTSpice.
