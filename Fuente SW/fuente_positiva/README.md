@@ -204,5 +204,20 @@ Como comercialmente no se encuentra cualquier valor de entrehierro, se tomó una
 </p>
 
 
+## Construcción del PCB
+
+
+<p align="center">
+  <img src="imgs/PCB_back.png?raw=true" width="600" title="hover text">
+</p>
+
+<p align="center">
+  <img src="imgs/PCB_f.png?raw=true" width="600" title="hover text">
+</p>
+
+
+<p align="center">
+  <img src="imgs/fuente_positiva_real.png?raw=true" width="600" title="hover text">
+</p>
 
 
