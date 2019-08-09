@@ -21,19 +21,26 @@ Las especificaiones del amplificador son las siguientes:
 
 - Potencia: 40 W RMS @ 8 Ohm
 
-- THD: < 0.1% @ 20Hz-20kHz
+- THD: < 0.1% @ 20Hz-20kHz, 5W / 8 Ohm
 
-- THD: < 0.01% @ 1kHz, 60% potencia nominal
+- THD: < 0.01% @ 1kHz, 15W / 8 Ohm
+
+- IMD: < 0.05 % @ 60Hz & 7kHz, 4:1 razón de amplitudes
+
+- Ancho de banda: 20Hz a 100kHz @ 0.1W / 8 Ohm
+
+- Tensión continua a la salida: < 10mV
 
 - Sensibilidad: 1 Vp
 
 - Impedancia de entrada: >10 kOhm
 
-- Factor de Amortiguamiento: > 1000
+- Factor de Amortiguamiento: > 500
 
 - Slew Rate: > 15 V/us
 
 - Protección: contra cortocircuito y sobrecarga
+
 
 
 ---
