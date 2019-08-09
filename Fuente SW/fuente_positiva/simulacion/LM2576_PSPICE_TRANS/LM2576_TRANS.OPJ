@@ -1,0 +1,167 @@
+(ExpressProject "LM2576_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lm2576_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\lm2576_trans.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\LM2576_TRANS.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x")
+    (Netlist_TAB "4")
+    (PSPICE_Output_File "test.net")
+    (PSPICE_View_Output "FALSE")
+    (PSPICE_Subcircuit_Format "FALSE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Net_Name_Pref "TRUE")
+    (PSPICE_Hier_Format "FALSE")
+    (PSPICE_Hier_Descend "FALSE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm2576_trans-pspicefiles\lm2576_startup\tran.sim"
+        (DisplayName "LM2576_STARTUP-tran")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm2576_trans-pspicefiles\lm2576_inv_startup\tran.sim"
+        (DisplayName "LM2576_INV_STARTUP-tran")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lm2576_trans-pspicefiles\lm2576_startup\tran.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm2576_trans.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\lm2576_trans.lib")))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User)))
+  (MPSSessionName "a0132446")
+  (PartMRUSelector
+    (LM2576_TRANS
+      (FullPartName "LM2576_TRANS.Normal")
+      (LibraryName
+         "C:\ELABMODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\LM2575\RELEASE_TI\LM2576_PSPICE_TRANS\LM2576_TRANS.OLB")
+      (DeviceIndex "0"))
+    (LM2576-ADJKC_TRANS.OLB
+      (FullPartName "LM2576-ADJKC_TRANS.OLB.Normal")
+      (LibraryName
+         "C:\ELABMODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\LM2575\RELEASE_TI\LM2576_PSPICE_TRANS\LM2576_TRANS.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AND2_BASIC_GEN
+      (FullPartName "AND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.2\TOOLS\CAPTURE\LIBRARY\TI-CUSTOM\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (ABM1
+      (FullPartName "ABM1.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LM2574-ADJNPA_TRANS
+      (FullPartName "LM2574-ADJNPA_TRANS.Normal")
+      (LibraryName
+         "C:\ELABMODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\LM2575\ACTIVE_WORK_TI\EXPERIMENTS\LM2574_PSPICE_TRANS\LM2574-ADJNPA_TRANS.OLB")
+      (DeviceIndex "0"))
+    (LM2575N_TRANS
+      (FullPartName "LM2575N_TRANS.Normal")
+      (LibraryName
+         "C:\ELABMODEL_WS\ELAB_MODEL_DS\PART_NUMBERS\LM2575\ACTIVE_WORK_TI\EXPERIMENTS\LM2575_PSPICE_TRANS\LM2575N_TRANS.OLB")
+      (DeviceIndex "0"))
+    (IC1
+      (FullPartName "IC1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (OR2_BASIC_GEN
+      (FullPartName "OR2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (COMP_BASIC_GEN
+      (FullPartName "COMP_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\PSPICE_SUBBLK_LIB_WS\PSPICE_SUBBLK_LIB_DS\PSPICE_SUBBLK_LIB\SB02_SUBBLOCKBASIC\SB0102_COMPARATORS\COMPARATOR_GEN.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (H
+      (FullPartName "H.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (D_D1
+      (FullPartName "D_D1.Normal")
+      (LibraryName
+         "D:\PSPICE\TPS40192\20080331 PRE-PACKAGED DEBUGGED\LIBRARY\TPS40192APP.OLB")
+      (DeviceIndex "0"))
+    (E
+      (FullPartName "E.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (NOR3_BASIC_GEN
+      (FullPartName "NOR3_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (NAND2_BASIC_GEN
+      (FullPartName "NAND2_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\GATES_GEN.OLB")
+      (DeviceIndex "0"))
+    (COMPHYS_BASIC_GEN
+      (FullPartName "COMPHYS_BASIC_GEN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\COMPARATOR_GEN.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_16.6\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 347"))
+      (Tab 0))))
