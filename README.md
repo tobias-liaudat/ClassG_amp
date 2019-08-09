@@ -1,4 +1,4 @@
-# Diseño: Amplificador de Audio de Potencia Clase G
+# Diseño: Amplificador de Audio de Potencia Clase G con dos fuentes conmutadas
 
 El diseño incluye además, dos fuentes conmutadas.
 
@@ -10,11 +10,19 @@ Integrantes:
 
 ---
 
+
+
 ### Algunos Links 
 
-- [Mediciones](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones)
+- [Mediciones del amplificador](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones)
 
-Videos de funcionamiento:
+- [Diseño y simulaciones de características del amplificador](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Dise%C3%B1o%20final)
+
+- [Construcción y ruteo del amplificador](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/construccion)
+
+
+
+#### Videos de funcionamiento:
 
 - Amplificador funcionando a máxima potencia y luego a baja potencia : [video](https://photos.app.goo.gl/b69a7zTJsys8Gchi9)
 
