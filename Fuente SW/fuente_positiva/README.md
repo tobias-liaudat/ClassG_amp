@@ -16,6 +16,8 @@ También existen otros integrados que incluyen a la llave de potencia como el LM
 
 En este controlador la frecuencia de oscilación esta fijada en 52kHz y además incluye una protección que reduce la frecuencia a 11kHz cuando la corriente que se le pide al integrada es mucha y supera cierto valor. Esto es útil para limitar la corriente en el transitorio de encendido además de servir como una limitación contra un cortocircuito a la salida.
 
+El modelo del diodo Schottky de conmutación se eligió teniendo en cuenta la simulación realizada para ver cuanta corriente debía soportar. Se sobredimensionó al elelgir el MUR820. El capacitor de entrada se eligió teniendo en cuenta la recomendación de la hoja de datos del LM2576-ADJ, y el capacitor de salida se ajusto según considerando el ripple a la salida y siguiendo lo detallado en la hoja de datos del controlador.
+
 Los demas elementos de la fuente y su diseño se analizará a continuación.
 
 
@@ -48,7 +50,7 @@ En el siguiente grafico puede verse una simulación de la fuente operando primer
 
 ## Diseño del inductor
 
-El inductor requerido debe ser de **30uH**. Para tal fin es importante realizar los cálculos para que este pueda soportar la corriente de la fuente sin saturarse. Para el diseño se siguieron los pasos especificados en el libro:
+El inductor requerido debe ser de **30uH**. Se eligió este valor para que la fuente opere en modo discontinuo en todo el rango de operación. Para el diseño del inductor es importante realizar los cálculos para que este pueda soportar la corriente de la fuente sin saturarse. Para el diseño se siguieron los pasos especificados en el libro:
 
 - *Sistemas de Alimentación Conmutados, de J. Luis Muñoz Sáez y S. Hernández González.*
 
@@ -161,6 +163,8 @@ El valor obtenido es:
 ## Construcción del inductor
 
 El alambre de cobre fue proporcionado por un amigo. Como este es de 0.7mm de diámetro y necesitamos de un diámetro mayor se decidió de trenzar el alambre para poder cumplir la condición planteada. Al ser una inductancia pequeña no es necesario muchas vueltas por lo que el espacio proporcionado por el nucleo alcanzará para poder construirlo.
+
+Como comercialmente no se encuentra cualquier valor de entrehierro, se tomó una logitud de 0.5mm que se encontraba disponible por el fabricante.
 
 ### Núcleo de ferrite
 
