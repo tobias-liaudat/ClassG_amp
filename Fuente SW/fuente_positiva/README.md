@@ -46,7 +46,7 @@ En el siguiente grafico puede verse una simulación de la fuente operando primer
   <img src="imgs/simulacion_fuente_pos.png?raw=true" width="1000" title="hover text">
 </p>
 
-## Construcción del inductor
+## Diseño del inductor
 
 El inductor requerido debe ser de **30uH**. Para tal fin es importante realizar los cálculos para que este pueda soportar la corriente de la fuente sin saturarse. Para el diseño se siguieron los pasos especificados en el libro:
 
@@ -93,14 +93,14 @@ Vamos a sobredimensionar el núcleo por protección. Primero se había seleccion
 A continuación se extrae del catálogo los extractos que describen al núcleo elegido:
 
 
-#### Material: CF196
+### Material: CF196
 
 <p align="center">
   <img src="imgs/material.png?raw=true" width="1000" title="hover text">
 </p>
 
 
-#### Forma: EER2811A
+### Forma: EER2811A
 
 <p align="center">
   <img src="imgs/cosmo_parameters.png?raw=true" width="1000" title="hover text">
@@ -109,9 +109,9 @@ A continuación se extrae del catálogo los extractos que describen al núcleo e
 
 Del catálogo podemos extraer el valor de PA y también el valor de B_max del material.
 
-- PA = 8938 mm4
+- **PA = 8938 mm4**
 
-- B_max = 400mT @ 100°C
+- **B_max = 400mT @ 100°C**
 
 Vamos a tomar un coeficiente de seguridad de 0.6 y establer que B_max_ef = 0.6 B_max = 240mT para los cálculos siguientes de número de espiras, largo del entrehierro y diametro del conductor.
 
@@ -120,7 +120,7 @@ Vamos a tomar un coeficiente de seguridad de 0.6 y establer que B_max_ef = 0.6 B
 Para la determinación del número de espiras se utiliza la fórmula presente en la bibliografía mencionada que viene de una deducción de distintas ecuaciones.
 
 <p align="center">
-  <img src="imgs/N_min.png?raw=true" width="200" title="hover text">
+  <img src="imgs/n_min.png?raw=true" width="200" title="hover text">
 </p>
 
 Reemplazando con nuestros valores obtenemos:
@@ -158,11 +158,42 @@ El valor obtenido es:
 - **D_c = 0.931 mm**
 
 
+## Construcción del inductor
+
+### Núcleo de ferrite
+
+<p align="center">
+  <img src="imgs/EER2811A.jpg?raw=true" width="400" title="hover text">
+</p>
+
+### Carrete horizontal
+
+<p align="center">
+  <img src="imgs/carrete_inductor.jpg?raw=true" width="400" title="hover text">
+</p>
+
+### Yugo plástico
+
+<p align="center">
+  <img src="imgs/yugo_inductor.jpg?raw=true" width="400" title="hover text">
+</p>
+
+### Alambre de cobre esmaltado
+
+<p align="center">
+  <img src="imgs/alambre_cobre.png?raw=true" width="400" title="hover text">
+</p>
 
 
+### Inductor contruido
 
+<p align="center">
+  <img src="imgs/inductor_positivo.png?raw=true" width="400" title="hover text">
+</p>
 
+### Medición de la inductancia
 
-
-
+<p align="center">
+  <img src="imgs/inductor_pos.jpg?raw=true" width="600" title="hover text">
+</p>
 
