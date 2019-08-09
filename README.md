@@ -1,14 +1,19 @@
 # Diseño: Amplificador de Audio de Potencia Clase G con dos fuentes conmutadas
 
-El diseño incluye además, dos fuentes conmutadas.
-
----
-
 Integrantes:
 - Tobias Ignacio Liaudat
 - Federico Muñoz Macia
 
 ---
+
+Este trabajo comprende el diseño, la simulación, la construcción y la medición de un amplificador de potencia de audio clase G más dos fuentes de switching.
+
+El informe consiste en este repositorio en donde se pueden encontrar: distintos tipo de explicaciones del diseño; modelos de simulación; simulaciones de las características del amplificador diseñado; archivos del diseño de los distintos PCB y explicaciones conceptuales de las elecciones; mediciones de las características de los circuitos implementados.
+
+Para navegar en este informe solo se debe seguir los distintos enlaces que irán abriendo las distintas carpetas. El informe consiste en dos carpetas principales, una que corresponde al [amplificador](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador) y otra que corresponde a las [fuentes conmutadas](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Fuente%20SW).
+
+---
+
 
 
 
