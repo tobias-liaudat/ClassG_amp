@@ -1,6 +1,6 @@
 # Amplificadorde audio Clase G
 
-Esta es la carpeta principal del diseño del amplificador de audio clase G de 50W. Vamos a hacer una pequeña descripción de las carpetas:
+Esta es la carpeta principal del diseño del amplificador de audio clase G de 40W. Vamos a hacer una pequeña descripción de las carpetas:
 
 ### Diseño y simulaciones
 
