@@ -30,7 +30,7 @@ Finalmente, se incluyo una carga resistiva propia a la fuente para que no trabaj
 
 ## Simulación
 
-El circuito utilizado para la simulación es el siguiente y puede encontrarse en el siguiente [enlace](enlace).
+El circuito utilizado para la simulación es el siguiente y puede encontrarse en el siguiente [enlace](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Fuente%20SW/fuente_positiva/simulacion).
 
 
 <p align="center">
@@ -39,7 +39,7 @@ El circuito utilizado para la simulación es el siguiente y puede encontrarse en
 
 
 <p align="center">
-  <img src="imgs/simulacion_fuente_pos.jpg?raw=true" width="1000" title="hover text">
+  <img src="imgs/simulacion_fuente_pos.png?raw=true" width="1000" title="hover text">
 </p>
 
 
