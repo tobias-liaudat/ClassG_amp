@@ -46,6 +46,116 @@ En el siguiente grafico puede verse una simulación de la fuente operando primer
   <img src="imgs/simulacion_fuente_pos.png?raw=true" width="1000" title="hover text">
 </p>
 
+## Construcción del inductor
+
+El inductor requerido debe ser de **30uH**. Para tal fin es importante realizar los cálculos para que este pueda soportar la corriente de la fuente sin saturarse. Para el diseño se siguieron los pasos especificados en el libro:
+
+- *Sistemas de Alimentación Conmutados, de J. Luis Muñoz Sáez y S. Hernández González.*
+
+Primero realizamos algunas especificaiones de la fuente que necesitamos para el diseño del inductor:
+
+|        Parámetros de diseño        	|     Valor     	|
+|:----------------------------------:	|:-------------:	|
+|             Inductancia            	|      30uH     	|
+|       Modo de funcionamiento       	|  Discontinuo  	|
+|         Tensión de entrada         	|      +30V     	|
+|          Tensión de salida         	|      +15V     	|
+|                 Fs                 	|     52kHz     	|
+|   Imp (corriente máxima pulsante)  	|      5.8A     	|
+| Ie_max (corriente efectiva máxima) 	|      2.0A     	|
+|             Delta_Temp             	| 40°C (típico) 	|
+|             K = K_u K_p            	|  0.7 (típico) 	|
+|               Delta_I              	|      5.8A     	|
+
+
+Lo primero que hay que hacer es calcular el PA (Producto Area) que es justamente el producto del Ae (Area efectiva) y del Aw (Area de la ventana). Para esto existen dos fórmulas, que depende de si el tamaño del núcleo estará limitado por la saturación del mismo o por las pérdidas en el núcleo. Normalmente se utiliza la primera expresión si la operación es en modo continuo y a una frecuencia inferior a 500kHz, la segunda expresión se utiliza para el funcionamiento en modo discontinuo o caso de que la frecuencia de operación supere los 500kHz.
+
+Modo continuo
+
+<p align="center">
+  <img src="imgs/PA_1.png?raw=true" width="200" title="hover text">
+</p>
+
+Modo discontinuo
+
+<p align="center">
+  <img src="imgs/PA_2.png?raw=true" width="400" title="hover text">
+</p>
+
+Una buena técnica de diseño consiste en calcular ambas expresiones y elegir el valor más grande. Al realizar el cálculo obtenemos:
+
+- PA = 2376 mm4
+
+Con este valor y conociendo la frecuencia de operación podemos hacer una elección provisora del núcleo en el fábricante de nucleos de ferrite que tengamos disponible. En nuestro caso, es el distribuidor [elemon](http://www.elemon.net/) que comercializa núcleos de distintos fabricantes.
+
+Vamos a sobredimensionar el núcleo por protección. Primero se había seleccionado el núcleo E25/10/07 pero como no había stock se seleccionó el núcleo de ferrite **EER2811A** de material **CF196** del fabricante [Cosmo Ferrites](http://www.cosmoferrites.com/). En su página se encuentra las características del material como así las dimensiones del núcleo. 
+
+A continuación se extrae del catálogo los extractos que describen al núcleo elegido:
+
+
+#### Material: CF196
+
+<p align="center">
+  <img src="imgs/material.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+#### Forma: EER2811A
+
+<p align="center">
+  <img src="imgs/cosmo_parameters.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+Del catálogo podemos extraer el valor de PA y también el valor de B_max del material.
+
+- PA = 8938 mm4
+
+- B_max = 400mT @ 100°C
+
+Vamos a tomar un coeficiente de seguridad de 0.6 y establer que B_max_ef = 0.6 B_max = 240mT para los cálculos siguientes de número de espiras, largo del entrehierro y diametro del conductor.
+
+#### Número de espiras
+
+Para la determinación del número de espiras se utiliza la fórmula presente en la bibliografía mencionada que viene de una deducción de distintas ecuaciones.
+
+<p align="center">
+  <img src="imgs/N_min.png?raw=true" width="100" title="hover text">
+</p>
+
+Reemplazando con nuestros valores obtenemos:
+
+- **N_min = 8.84 --> 9**
+
+#### Longitud de entrehierro
+
+Para la longitud del entrehierro se utiliza la formula siguiente donde *ur* es 1 ya que en el entrehierro habrá aire. *N* es el número de espiras que se calculó previamente.
+
+<p align="center">
+  <img src="imgs/l_eh.png?raw=true" width="100" title="hover text">
+</p>
+
+Al reemplazar los valores obtenemos:
+
+- **L_eh = 0.27mm**
+
+#### Diametro del conductor
+
+Utilizaremos las siguientes fórmulas donde reemplazaremos con nuestros valores. Luego de determinar el area de la sección del conductor realizamos una simple cuenta que vincula el área de una circunferencia con su diámetro.
+
+
+<p align="center">
+  <img src="imgs/AC_max.png?raw=true" width="200" title="hover text">
+</p>
+
+
+<p align="center">
+  <img src="imgs/J_max.png?raw=true" width="200" title="hover text">
+</p>
+
+El valor obtenido es:
+
+- **D_c = 0.931 mm**
 
 
 
