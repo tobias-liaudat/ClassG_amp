@@ -204,17 +204,25 @@ Como comercialmente no se encuentra cualquier valor de entrehierro, se tomó una
 </p>
 
 
-## Construcción del PCB
+## Diseño y Construcción del PCB
 
+Para la diseño del PCB se siguieron los lineamientos dados en la materia. Como es una fuente que trabajará con potencia y además con una frecuencia alta, se debio utilizar zonas grandes para las distintas tensiones como *Vin*, *GND* y *Vout*. Se busca que las señales de alta frecuencia encuentren caminos de baja impedancia. 
+
+Los archivos de diseño del programa *Kicad* se encuentran el esta [carpeta](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Fuente%20SW/fuente_positiva/construccion).
+
+### Vista atras
 
 <p align="center">
   <img src="imgs/PCB_back.png?raw=true" width="600" title="hover text">
 </p>
 
+### Vista adelante
+
 <p align="center">
   <img src="imgs/PCB_f.png?raw=true" width="600" title="hover text">
 </p>
 
+### Fuente construida
 
 <p align="center">
   <img src="imgs/fuente_positiva_real.png?raw=true" width="600" title="hover text">
