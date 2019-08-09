@@ -163,19 +163,19 @@ El valor obtenido es:
 ### Núcleo de ferrite
 
 <p align="center">
-  <img src="imgs/EER2811A.jpg?raw=true" width="200" title="hover text">
+  <img src="imgs/EER2811A.JPG?raw=true" width="200" title="hover text">
 </p>
 
 ### Carrete horizontal
 
 <p align="center">
-  <img src="imgs/carrete_inductor.jpg?raw=true" width="200" title="hover text">
+  <img src="imgs/carrete_inductor.JPG?raw=true" width="200" title="hover text">
 </p>
 
 ### Yugo plástico
 
 <p align="center">
-  <img src="imgs/yugo_inductor.jpg?raw=true" width="200" title="hover text">
+  <img src="imgs/yugo_inductor.JPG?raw=true" width="200" title="hover text">
 </p>
 
 ### Alambre de cobre esmaltado
