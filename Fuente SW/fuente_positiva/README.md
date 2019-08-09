@@ -32,11 +32,15 @@ Finalmente, se incluyo una carga resistiva propia a la fuente para que no trabaj
 
 El circuito utilizado para la simulación es el siguiente y puede encontrarse en el siguiente [enlace](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Fuente%20SW/fuente_positiva/simulacion).
 
-
 <p align="center">
   <img src="imgs/fuente_positiva.png?raw=true" width="1000" title="hover text">
 </p>
 
+El modo de operación elegido fue el discontinuo. La razón es que esta fuente se encontrara con la necesidad de estar sin entragar corriente por momentos, el caso en donde no hay señal a la entrada, ya que la polarización del amplificador proviene de los rieles superiores. Luego cuando el amplificador se encuentre funcionando, la fuente deberá entregar corriente solo en los momentos en que la señal de salida esté por debajo del valor de salida de la fuente, es decir 15V. Por lo tanto deberá entregar corriente por cortos periodos de tiempo para luego trabajar en vacio y repetir este ciclo. Se considero al modo discontinuo mejor adaptado para trabajar con una variación de carga de este tipo.
+
+Este modo hace que el inductor requerido por la fuente sea menor, aunque va a exigir pico de corriente mayor.
+
+En el siguiente grafico puede verse una simulación de la fuente operando primero en 'vacio' (con la carga interna de 330 Ohms) y luego con una carga de aproximadamente 2.4 A de media con una senoidal montada de 0.5A de amplitud. Se puede observar que no presenta ningún inconveniente para la fuente diseñada.
 
 <p align="center">
   <img src="imgs/simulacion_fuente_pos.png?raw=true" width="1000" title="hover text">
