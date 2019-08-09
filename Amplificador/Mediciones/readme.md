@@ -1,5 +1,25 @@
 # Mediciones sobre el amplificador
 
+## Instrumental
+
+Primero vamos a listar el instrumental utilizado para las distintas mediciones.
+
+- Generador de funciones: Fabricante *GRATTEN*, modelo *ATF20D+*
+
+- Osciloscopio 1: Fabricante *RIGOL*, modelo *DS1102E*
+
+- Osciloscopio 2: Fabricante *SIGLENT*, modelo *SDS1072CML+*
+
+- Multímetro digital 1 (True RMS): Fabricante *PRO'SKIT*, modelo *MT-1707*
+
+- Multímetro digital 2 (True RMS): Fabricante *SONEL*, modelo *CMM-40*
+
+- Fuente de tensión ajustable 1: Fabricante *MCP*, modelo *M10-SP3010L* 
+
+- Fuente de tensión ajustable 2: Fabricante *PROTOMAX*, modelo *HY3005D-3*
+
+- PC número 157 del laboratorio L14 con el software *SpectraPlus v5*.
+
 ## Polarización
 
 La polarización se puede ver en la imagen a continuación en donde se midió la tensión en varios puntos del circuito cuando este se encuentra funcionando sin señal a la entrada.
@@ -251,7 +271,7 @@ Una captura del programa con la medición de IMD se puede ver en la siguiente im
 
 ## Temperatura
 
-Para la medición de temperatura se utilizó la termocupla del multímetro del fabricante *Pro'sKit* modelo *MT-1707*. Se excito al circuito con dos señales distintas, una senoidal y una cuadrada, ambas de frecuencia 1kHz. Se trabajó a máxima potencia y se espero un tiempo para que se estabilizaran las temperaturas. Sin embargo, este tiempo no pudo ser demasiado prolongado ya que la temperatura desarrollada en la carga era tal que quemaba las distintas superficies en donde se la dejaba.
+Para la medición de temperatura se utilizó la termocupla del multímetro del fabricante *Pro'sKit* modelo *MT-1707*. Se excito al circuito con dos señales distintas, una senoidal y una cuadrada, ambas de frecuencia 1kHz. Se trabajó a máxima potencia y se espero un tiempo para que se estabilizaran las temperaturas. Sin embargo, este tiempo no pudo ser demasiado prolongado ya que la temperatura desarrollada en la carga era tal que quemaba las distintas superficies en donde se la dejaba. La temperatura ambiente para ambos casos fue de 21°C.
 
 
 ### Onda Senoidal
