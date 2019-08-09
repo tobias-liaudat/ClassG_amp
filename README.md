@@ -29,7 +29,7 @@ Las especificaiones del amplificador son las siguientes:
 
 - Ancho de banda: 20Hz a 100kHz @ 0.1W / 8 Ohm
 
-- Tensión continua a la salida: < 10mV
+- Tensión continua a la salida: < |10mV|
 
 - Sensibilidad: 1 Vp
 
