@@ -163,37 +163,37 @@ El valor obtenido es:
 ### Núcleo de ferrite
 
 <p align="center">
-  <img src="imgs/EER2811A.jpg?raw=true" width="400" title="hover text">
+  <img src="imgs/EER2811A.jpg?raw=true" width="200" title="hover text">
 </p>
 
 ### Carrete horizontal
 
 <p align="center">
-  <img src="imgs/carrete_inductor.jpg?raw=true" width="400" title="hover text">
+  <img src="imgs/carrete_inductor.jpg?raw=true" width="200" title="hover text">
 </p>
 
 ### Yugo plástico
 
 <p align="center">
-  <img src="imgs/yugo_inductor.jpg?raw=true" width="400" title="hover text">
+  <img src="imgs/yugo_inductor.jpg?raw=true" width="200" title="hover text">
 </p>
 
 ### Alambre de cobre esmaltado
 
 <p align="center">
-  <img src="imgs/alambre_cobre.png?raw=true" width="400" title="hover text">
+  <img src="imgs/alambre_cobre.png?raw=true" width="200" title="hover text">
 </p>
 
 
 ### Inductor contruido
 
 <p align="center">
-  <img src="imgs/inductor_positivo.png?raw=true" width="400" title="hover text">
+  <img src="imgs/inductor_positivo.png?raw=true" width="300" title="hover text">
 </p>
 
 ### Medición de la inductancia
 
 <p align="center">
-  <img src="imgs/inductor_pos.jpg?raw=true" width="600" title="hover text">
+  <img src="imgs/inductor_pos.jpg?raw=true" width="400" title="hover text">
 </p>
 
