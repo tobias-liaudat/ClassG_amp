@@ -160,6 +160,8 @@ El valor obtenido es:
 
 ## Construcción del inductor
 
+El alambre de cobre fue proporcionado por un amigo. Como este es de 0.7mm de diámetro y necesitamos de un diámetro mayor se decidió de trenzar el alambre para poder cumplir la condición planteada. Al ser una inductancia pequeña no es necesario muchas vueltas por lo que el espacio proporcionado por el nucleo alcanzará para poder construirlo.
+
 ### Núcleo de ferrite
 
 <p align="center">
@@ -196,4 +198,7 @@ El valor obtenido es:
 <p align="center">
   <img src="imgs/inductor_pos.jpg?raw=true" width="400" title="hover text">
 </p>
+
+
+
 
