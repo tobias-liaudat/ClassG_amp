@@ -70,13 +70,13 @@ Primero realizamos algunas especificaiones de la fuente que necesitamos para el 
 
 Lo primero que hay que hacer es calcular el PA (Producto Area) que es justamente el producto del Ae (Area efectiva) y del Aw (Area de la ventana). Para esto existen dos fórmulas, que depende de si el tamaño del núcleo estará limitado por la saturación del mismo o por las pérdidas en el núcleo. Normalmente se utiliza la primera expresión si la operación es en modo continuo y a una frecuencia inferior a 500kHz, la segunda expresión se utiliza para el funcionamiento en modo discontinuo o caso de que la frecuencia de operación supere los 500kHz.
 
-Modo continuo
+- Modo continuo:
 
 <p align="center">
-  <img src="imgs/PA_1.png?raw=true" width="200" title="hover text">
+  <img src="imgs/PA_1.png?raw=true" width="400" title="hover text">
 </p>
 
-Modo discontinuo
+- Modo discontinuo:
 
 <p align="center">
   <img src="imgs/PA_2.png?raw=true" width="400" title="hover text">
@@ -120,7 +120,7 @@ Vamos a tomar un coeficiente de seguridad de 0.6 y establer que B_max_ef = 0.6 B
 Para la determinación del número de espiras se utiliza la fórmula presente en la bibliografía mencionada que viene de una deducción de distintas ecuaciones.
 
 <p align="center">
-  <img src="imgs/N_min.png?raw=true" width="100" title="hover text">
+  <img src="imgs/N_min.png?raw=true" width="200" title="hover text">
 </p>
 
 Reemplazando con nuestros valores obtenemos:
@@ -132,7 +132,7 @@ Reemplazando con nuestros valores obtenemos:
 Para la longitud del entrehierro se utiliza la formula siguiente donde *ur* es 1 ya que en el entrehierro habrá aire. *N* es el número de espiras que se calculó previamente.
 
 <p align="center">
-  <img src="imgs/l_eh.png?raw=true" width="100" title="hover text">
+  <img src="imgs/l_eh.png?raw=true" width="200" title="hover text">
 </p>
 
 Al reemplazar los valores obtenemos:
@@ -150,7 +150,7 @@ Utilizaremos las siguientes fórmulas donde reemplazaremos con nuestros valores.
 
 
 <p align="center">
-  <img src="imgs/J_max.png?raw=true" width="200" title="hover text">
+  <img src="imgs/J_max.png?raw=true" width="400" title="hover text">
 </p>
 
 El valor obtenido es:
