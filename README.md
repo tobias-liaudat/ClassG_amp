@@ -1,10 +1,13 @@
 # Diseño: Amplificador de Audio de Potencia Clase G con dos fuentes conmutadas
 
-Integrantes:
+### Integrantes:
+
 - Tobias Ignacio Liaudat
 - Federico Muñoz Macia
 
 ---
+
+### Aspectos generales del trabajo
 
 Este trabajo comprende el diseño, la simulación, la construcción y la medición de un amplificador de potencia de audio clase G más dos fuentes de switching.
 
@@ -12,12 +15,32 @@ El informe consiste en este repositorio en donde se pueden encontrar: distintos 
 
 Para navegar en este informe solo se debe seguir los distintos enlaces que irán abriendo las distintas carpetas. El informe consiste en dos carpetas principales, una que corresponde al [amplificador](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador) y otra que corresponde a las [fuentes conmutadas](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Fuente%20SW).
 
+### Especificaciones
+
+Las especificaiones del amplificador son las siguientes:
+
+- Potencia: 40 W RMS @ 8 Ohm
+
+- THD: < 0.1% @ 20Hz-20kHz
+
+- THD: < 0.01% @ 1kHz, 60% potencia nominal
+
+- Sensibilidad: 1 Vp
+
+- Impedancia de entrada: >10 kOhm
+
+- Factor de Amortiguamiento: > 1000
+
+- Slew Rate: > 15 V/us
+
+- Protección: contra cortocircuito y sobrecarga
+
+
 ---
 
 
 
-
-### Algunos Links 
+### Algunos enlaces a distintas secciones del informe 
 
 - [Mediciones del amplificador](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones)
 
@@ -27,7 +50,7 @@ Para navegar en este informe solo se debe seguir los distintos enlaces que irán
 
 
 
-#### Videos de funcionamiento:
+### Videos de funcionamiento:
 
 - Amplificador funcionando a máxima potencia y luego a baja potencia : [video](https://photos.app.goo.gl/b69a7zTJsys8Gchi9)
 
@@ -52,6 +75,6 @@ Para navegar en este informe solo se debe seguir los distintos enlaces que irán
 ## [Fuentes Conmutadas](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Fuente%20SW)
 
 <p align="center">
-  <img src="imgs/fuentes_conmutadas.jpg?raw=true" width="1000" title="hover text">
+  <img src="imgs/fuentes_conmutadas_2.jpg?raw=true" width="1000" title="hover text">
 </p>
 
