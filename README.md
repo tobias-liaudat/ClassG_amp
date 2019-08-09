@@ -10,7 +10,22 @@ Integrantes:
 
 ---
 
-Atajos: [Mediciones](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones)
+### Algunos Links 
+
+- [Mediciones](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Mediciones)
+
+Videos de funcionamiento:
+
+- Amplificador funcionando a máxima potencia y luego a baja potencia : [video](https://photos.app.goo.gl/b69a7zTJsys8Gchi9)
+
+- Fuente de switching positiva trabajando con con carga de 16 Ohm : [video](https://photos.app.goo.gl/x3bsC1SKNY7uwe568)
+
+- Fuente de switching negativa trabajando con con carga de 16 Ohm : [video](https://photos.app.goo.gl/3ddAb1sy1qB68Pso6)
+
+- Amplificador con fuentes de switching trabajando a máxima potencia : [video](https://photos.app.goo.gl/AqDvbGj7fGZXpYhV9)
+
+- Amplificador con fuentes de switching reproduciendo musica desde un celular en un parlante de 8 Ohm de baja potencia : [video](https://photos.app.goo.gl/HTU1mSpep7PGP6fW8)
+
 
 ---
 
