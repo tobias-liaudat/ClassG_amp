@@ -6,17 +6,51 @@ Primero vamos a listar el instrumental utilizado para las distintas mediciones.
 
 - Generador de funciones: Fabricante *GRATTEN*, modelo *ATF20D+*
 
+<p align="center">
+  <img src="imgs/gratten_signal.jpg?raw=true" width="200" title="hover text">
+</p>
+
 - Osciloscopio 1: Fabricante *RIGOL*, modelo *DS1102E*
+
+
+<p align="center">
+  <img src="imgs/rigol_osc.jpg?raw=true" width="200" title="hover text">
+</p>
 
 - Osciloscopio 2: Fabricante *SIGLENT*, modelo *SDS1072CML+*
 
+
+<p align="center">
+  <img src="imgs/siglent_osc.jpg?raw=true" width="200" title="hover text">
+</p>
+
 - Multímetro digital 1 (True RMS): Fabricante *PRO'SKIT*, modelo *MT-1707*
+
+
+<p align="center">
+  <img src="imgs/MT-17071.png?raw=true" width="200" title="hover text">
+</p>
 
 - Multímetro digital 2 (True RMS): Fabricante *SONEL*, modelo *CMM-40*
 
+
+<p align="center">
+  <img src="imgs/sonel_multimetro.jpg?raw=true" width="200" title="hover text">
+</p>
+
 - Fuente de tensión ajustable 1: Fabricante *MCP*, modelo *M10-SP3010L* 
 
+
+<p align="center">
+  <img src="imgs/mcp_m10_v2.png?raw=true" width="200" title="hover text">
+</p>
+
 - Fuente de tensión ajustable 2: Fabricante *PROTOMAX*, modelo *HY3005D-3*
+
+
+<p align="center">
+  <img src="imgs/fuente_doble.png?raw=true" width="200" title="hover text">
+</p>
 
 - PC número 157 del laboratorio L14 con el software *SpectraPlus v5*.
 
