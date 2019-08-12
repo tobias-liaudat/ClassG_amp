@@ -128,6 +128,17 @@ Se simuló la transferencia. Está tiene una zona plana muy amplia con una ganan
 - *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/Dise%C3%B1o%20final/Bandwidth).*
 
 
+## Ganancia de lazo abierto
+
+Se simuló la ganancia de lazo abierto. En esta simulación se puede ver el margen de fase del sistema que se observa al ver la fase cuando la ganancia de lazo abierto tiene un valor en módulo igual a 0dB o a 1 (en veces). En este caso nos da **73.76° @ 0dB** dandp un margen de fase de aproximadamente **100°**.
+
+<p align="center">
+  <img src="Ganancia_lazo_abierto/ganancia_lazo_abierto.png?raw=true" width="1000" title="hover text">
+</p>
+
+
+- *El circuito utilizado para la simulación se encuentra [aqui](https://github.com/tobias-liaudat/ClassG_amp/tree/master/Amplificador/Dise%C3%B1o%20final/Ganancia_lazo_abierto).*
+
 ## Protección contra cortocircuito a la salida
 
 Se simuló un cortocircuito a la salida para poner a prueba la protección contra cortocircuito. Se lo hizo al poner en paralelo de la carga un resistor de 0.01 Ohms. Como se encuentra descrito en una [sección anterior](https://github.com/tobias-liaudat/ClassG_amp/tree/master/spice_models/Amplificador/claseG_mejoras), la corriente de limitación esta fijada alrededor de 5A como se puede ver en la siguiente simulación:
