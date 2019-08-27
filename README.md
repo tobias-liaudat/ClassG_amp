@@ -1,10 +1,5 @@
 # Diseño: Amplificador de Audio de Potencia Clase G con dos fuentes conmutadas
 
-### Integrantes:
-
-- Tobias Ignacio Liaudat
-- Federico Muñoz Macia
-
 ---
 
 ### Aspectos generales del trabajo
